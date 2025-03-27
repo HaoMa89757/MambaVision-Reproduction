@@ -1,0 +1,2588 @@
+2025-03-25 12:16:23,587 - INFO - Training started with configuration:
+2025-03-25 12:16:23,587 - INFO - epochs              : 310
+2025-03-25 12:16:23,587 - INFO - batch_size          : 128
+2025-03-25 12:16:23,588 - INFO - lr                  : 0.1
+2025-03-25 12:16:23,588 - INFO - min_lr              : 1e-05
+2025-03-25 12:16:23,588 - INFO - momentum            : 0.9
+2025-03-25 12:16:23,588 - INFO - weight_decay        : 0.0001
+2025-03-25 12:16:23,588 - INFO - clip_grad           : 5.0
+2025-03-25 12:16:23,588 - INFO - workers             : 8
+2025-03-25 12:16:23,588 - INFO - data_dir_train      : /root/autodl-tmp/Dataset/train
+2025-03-25 12:16:23,588 - INFO - data_dir_val        : /root/autodl-tmp/Dataset/val
+2025-03-25 12:16:23,588 - INFO - num_classes         : 100
+2025-03-25 12:16:23,588 - INFO - pretrained          : False
+2025-03-25 12:16:23,588 - INFO - smoothing           : 0.1
+2025-03-25 12:16:23,588 - INFO - ema_decay           : 0.9998
+2025-03-25 12:16:23,588 - INFO - model_ema           : False
+2025-03-25 12:16:23,588 - INFO - amp                 : False
+2025-03-25 12:16:24,231 - INFO - Model built with AMP disabled
+2025-03-25 12:16:24,423 - INFO - Data loaded: 126689 training samples, 5000 validation samples
+2025-03-25 12:16:24,425 - INFO - Optimization configured: SGD with CosineAnnealingLR
+2025-03-25 12:16:24,425 - INFO - Model initialized on cuda
+2025-03-25 12:16:24,425 - INFO - Epoch 1/310 started
+2025-03-25 12:19:04,217 - INFO - Epoch 1 training completed. Avg Loss: 5.0861, LR: 0.100000
+2025-03-25 12:19:08,206 - INFO - Validation completed - Loss: 4.6895, Top1: 6.92%, Top5: 23.68%
+2025-03-25 12:19:08,365 - INFO - New best model saved with Top1 Acc: 6.92%
+2025-03-25 12:19:08,365 - INFO - Epoch 1 Summary: 
+Train Loss: 5.0861 | Val Loss: 4.6895
+Top1 Acc: 6.92% | Top5 Acc: 23.68%
+----------------------------------------
+
+2025-03-25 12:19:08,365 - INFO - Epoch 2/310 started
+2025-03-25 12:21:46,946 - INFO - Epoch 2 training completed. Avg Loss: 4.5476, LR: 0.099997
+2025-03-25 12:21:50,829 - INFO - Validation completed - Loss: 4.4030, Top1: 10.78%, Top5: 31.60%
+2025-03-25 12:21:50,995 - INFO - New best model saved with Top1 Acc: 10.78%
+2025-03-25 12:21:50,995 - INFO - Epoch 2 Summary: 
+Train Loss: 4.5476 | Val Loss: 4.4030
+Top1 Acc: 10.78% | Top5 Acc: 31.60%
+----------------------------------------
+
+2025-03-25 12:21:50,995 - INFO - Epoch 3/310 started
+2025-03-25 12:24:29,659 - INFO - Epoch 3 training completed. Avg Loss: 4.2775, LR: 0.099990
+2025-03-25 12:24:33,197 - INFO - Validation completed - Loss: 4.0060, Top1: 19.52%, Top5: 46.38%
+2025-03-25 12:24:33,367 - INFO - New best model saved with Top1 Acc: 19.52%
+2025-03-25 12:24:33,368 - INFO - Epoch 3 Summary: 
+Train Loss: 4.2775 | Val Loss: 4.0060
+Top1 Acc: 19.52% | Top5 Acc: 46.38%
+----------------------------------------
+
+2025-03-25 12:24:33,368 - INFO - Epoch 4/310 started
+2025-03-25 12:27:12,319 - INFO - Epoch 4 training completed. Avg Loss: 4.1012, LR: 0.099977
+2025-03-25 12:27:15,928 - INFO - Validation completed - Loss: 3.8772, Top1: 22.18%, Top5: 50.64%
+2025-03-25 12:27:16,092 - INFO - New best model saved with Top1 Acc: 22.18%
+2025-03-25 12:27:16,092 - INFO - Epoch 4 Summary: 
+Train Loss: 4.1012 | Val Loss: 3.8772
+Top1 Acc: 22.18% | Top5 Acc: 50.64%
+----------------------------------------
+
+2025-03-25 12:27:16,092 - INFO - Epoch 5/310 started
+2025-03-25 12:29:55,239 - INFO - Epoch 5 training completed. Avg Loss: 3.9401, LR: 0.099959
+2025-03-25 12:29:59,015 - INFO - Validation completed - Loss: 3.7129, Top1: 24.90%, Top5: 55.04%
+2025-03-25 12:29:59,182 - INFO - New best model saved with Top1 Acc: 24.90%
+2025-03-25 12:29:59,183 - INFO - Epoch 5 Summary: 
+Train Loss: 3.9401 | Val Loss: 3.7129
+Top1 Acc: 24.90% | Top5 Acc: 55.04%
+----------------------------------------
+
+2025-03-25 12:29:59,183 - INFO - Epoch 6/310 started
+2025-03-25 12:32:37,990 - INFO - Epoch 6 training completed. Avg Loss: 3.7951, LR: 0.099936
+2025-03-25 12:32:41,936 - INFO - Validation completed - Loss: 3.4891, Top1: 30.56%, Top5: 61.92%
+2025-03-25 12:32:42,094 - INFO - New best model saved with Top1 Acc: 30.56%
+2025-03-25 12:32:42,094 - INFO - Epoch 6 Summary: 
+Train Loss: 3.7951 | Val Loss: 3.4891
+Top1 Acc: 30.56% | Top5 Acc: 61.92%
+----------------------------------------
+
+2025-03-25 12:32:42,094 - INFO - Epoch 7/310 started
+2025-03-25 12:35:20,743 - INFO - Epoch 7 training completed. Avg Loss: 3.6721, LR: 0.099908
+2025-03-25 12:35:24,361 - INFO - Validation completed - Loss: 3.3627, Top1: 32.72%, Top5: 65.02%
+2025-03-25 12:35:24,527 - INFO - New best model saved with Top1 Acc: 32.72%
+2025-03-25 12:35:24,527 - INFO - Epoch 7 Summary: 
+Train Loss: 3.6721 | Val Loss: 3.3627
+Top1 Acc: 32.72% | Top5 Acc: 65.02%
+----------------------------------------
+
+2025-03-25 12:35:24,528 - INFO - Epoch 8/310 started
+2025-03-25 12:38:02,964 - INFO - Epoch 8 training completed. Avg Loss: 3.5589, LR: 0.099874
+2025-03-25 12:38:06,631 - INFO - Validation completed - Loss: 3.2537, Top1: 36.18%, Top5: 67.46%
+2025-03-25 12:38:06,790 - INFO - New best model saved with Top1 Acc: 36.18%
+2025-03-25 12:38:06,791 - INFO - Epoch 8 Summary: 
+Train Loss: 3.5589 | Val Loss: 3.2537
+Top1 Acc: 36.18% | Top5 Acc: 67.46%
+----------------------------------------
+
+2025-03-25 12:38:06,791 - INFO - Epoch 9/310 started
+2025-03-25 12:40:45,712 - INFO - Epoch 9 training completed. Avg Loss: 3.4534, LR: 0.099836
+2025-03-25 12:40:49,286 - INFO - Validation completed - Loss: 3.2358, Top1: 37.22%, Top5: 69.54%
+2025-03-25 12:40:49,448 - INFO - New best model saved with Top1 Acc: 37.22%
+2025-03-25 12:40:49,448 - INFO - Epoch 9 Summary: 
+Train Loss: 3.4534 | Val Loss: 3.2358
+Top1 Acc: 37.22% | Top5 Acc: 69.54%
+----------------------------------------
+
+2025-03-25 12:40:49,448 - INFO - Epoch 10/310 started
+2025-03-25 12:43:28,179 - INFO - Epoch 10 training completed. Avg Loss: 3.3661, LR: 0.099792
+2025-03-25 12:43:31,733 - INFO - Validation completed - Loss: 3.0581, Top1: 41.06%, Top5: 72.12%
+2025-03-25 12:43:31,892 - INFO - New best model saved with Top1 Acc: 41.06%
+2025-03-25 12:43:31,892 - INFO - Epoch 10 Summary: 
+Train Loss: 3.3661 | Val Loss: 3.0581
+Top1 Acc: 41.06% | Top5 Acc: 72.12%
+----------------------------------------
+
+2025-03-25 12:43:31,892 - INFO - Epoch 11/310 started
+2025-03-25 12:46:10,504 - INFO - Epoch 11 training completed. Avg Loss: 3.2877, LR: 0.099743
+2025-03-25 12:46:14,027 - INFO - Validation completed - Loss: 3.0067, Top1: 42.22%, Top5: 73.70%
+2025-03-25 12:46:14,185 - INFO - New best model saved with Top1 Acc: 42.22%
+2025-03-25 12:46:14,185 - INFO - Epoch 11 Summary: 
+Train Loss: 3.2877 | Val Loss: 3.0067
+Top1 Acc: 42.22% | Top5 Acc: 73.70%
+----------------------------------------
+
+2025-03-25 12:46:14,185 - INFO - Epoch 12/310 started
+2025-03-25 12:48:53,235 - INFO - Epoch 12 training completed. Avg Loss: 3.2280, LR: 0.099690
+2025-03-25 12:48:56,669 - INFO - Validation completed - Loss: 2.9649, Top1: 43.48%, Top5: 74.86%
+2025-03-25 12:48:56,832 - INFO - New best model saved with Top1 Acc: 43.48%
+2025-03-25 12:48:56,832 - INFO - Epoch 12 Summary: 
+Train Loss: 3.2280 | Val Loss: 2.9649
+Top1 Acc: 43.48% | Top5 Acc: 74.86%
+----------------------------------------
+
+2025-03-25 12:48:56,832 - INFO - Epoch 13/310 started
+2025-03-25 12:51:35,874 - INFO - Epoch 13 training completed. Avg Loss: 3.1777, LR: 0.099631
+2025-03-25 12:51:39,581 - INFO - Validation completed - Loss: 2.8409, Top1: 47.24%, Top5: 78.12%
+2025-03-25 12:51:39,741 - INFO - New best model saved with Top1 Acc: 47.24%
+2025-03-25 12:51:39,741 - INFO - Epoch 13 Summary: 
+Train Loss: 3.1777 | Val Loss: 2.8409
+Top1 Acc: 47.24% | Top5 Acc: 78.12%
+----------------------------------------
+
+2025-03-25 12:51:39,741 - INFO - Epoch 14/310 started
+2025-03-25 12:54:18,469 - INFO - Epoch 14 training completed. Avg Loss: 3.1234, LR: 0.099567
+2025-03-25 12:54:21,975 - INFO - Validation completed - Loss: 2.7884, Top1: 48.68%, Top5: 78.54%
+2025-03-25 12:54:22,133 - INFO - New best model saved with Top1 Acc: 48.68%
+2025-03-25 12:54:22,133 - INFO - Epoch 14 Summary: 
+Train Loss: 3.1234 | Val Loss: 2.7884
+Top1 Acc: 48.68% | Top5 Acc: 78.54%
+----------------------------------------
+
+2025-03-25 12:54:22,133 - INFO - Epoch 15/310 started
+2025-03-25 12:57:00,818 - INFO - Epoch 15 training completed. Avg Loss: 3.0829, LR: 0.099498
+2025-03-25 12:57:04,321 - INFO - Validation completed - Loss: 3.0039, Top1: 42.42%, Top5: 73.70%
+2025-03-25 12:57:04,321 - INFO - Epoch 15 Summary: 
+Train Loss: 3.0829 | Val Loss: 3.0039
+Top1 Acc: 42.42% | Top5 Acc: 73.70%
+----------------------------------------
+
+2025-03-25 12:57:04,322 - INFO - Epoch 16/310 started
+2025-03-25 12:59:43,220 - INFO - Epoch 16 training completed. Avg Loss: 3.0469, LR: 0.099423
+2025-03-25 12:59:46,784 - INFO - Validation completed - Loss: 2.8140, Top1: 48.74%, Top5: 78.88%
+2025-03-25 12:59:46,943 - INFO - New best model saved with Top1 Acc: 48.74%
+2025-03-25 12:59:46,943 - INFO - Epoch 16 Summary: 
+Train Loss: 3.0469 | Val Loss: 2.8140
+Top1 Acc: 48.74% | Top5 Acc: 78.88%
+----------------------------------------
+
+2025-03-25 12:59:46,943 - INFO - Epoch 17/310 started
+2025-03-25 13:02:25,703 - INFO - Epoch 17 training completed. Avg Loss: 3.0196, LR: 0.099344
+2025-03-25 13:02:29,208 - INFO - Validation completed - Loss: 2.7465, Top1: 50.06%, Top5: 79.52%
+2025-03-25 13:02:29,371 - INFO - New best model saved with Top1 Acc: 50.06%
+2025-03-25 13:02:29,371 - INFO - Epoch 17 Summary: 
+Train Loss: 3.0196 | Val Loss: 2.7465
+Top1 Acc: 50.06% | Top5 Acc: 79.52%
+----------------------------------------
+
+2025-03-25 13:02:29,371 - INFO - Epoch 18/310 started
+2025-03-25 13:05:08,341 - INFO - Epoch 18 training completed. Avg Loss: 2.9841, LR: 0.099260
+2025-03-25 13:05:11,894 - INFO - Validation completed - Loss: 2.7210, Top1: 51.24%, Top5: 80.16%
+2025-03-25 13:05:12,059 - INFO - New best model saved with Top1 Acc: 51.24%
+2025-03-25 13:05:12,059 - INFO - Epoch 18 Summary: 
+Train Loss: 2.9841 | Val Loss: 2.7210
+Top1 Acc: 51.24% | Top5 Acc: 80.16%
+----------------------------------------
+
+2025-03-25 13:05:12,059 - INFO - Epoch 19/310 started
+2025-03-25 13:07:51,030 - INFO - Epoch 19 training completed. Avg Loss: 2.9619, LR: 0.099171
+2025-03-25 13:07:54,814 - INFO - Validation completed - Loss: 2.7434, Top1: 50.52%, Top5: 80.12%
+2025-03-25 13:07:54,815 - INFO - Epoch 19 Summary: 
+Train Loss: 2.9619 | Val Loss: 2.7434
+Top1 Acc: 50.52% | Top5 Acc: 80.12%
+----------------------------------------
+
+2025-03-25 13:07:54,815 - INFO - Epoch 20/310 started
+2025-03-25 13:10:33,667 - INFO - Epoch 20 training completed. Avg Loss: 2.9404, LR: 0.099076
+2025-03-25 13:10:37,335 - INFO - Validation completed - Loss: 2.6495, Top1: 52.40%, Top5: 81.28%
+2025-03-25 13:10:37,509 - INFO - New best model saved with Top1 Acc: 52.40%
+2025-03-25 13:10:37,509 - INFO - Epoch 20 Summary: 
+Train Loss: 2.9404 | Val Loss: 2.6495
+Top1 Acc: 52.40% | Top5 Acc: 81.28%
+----------------------------------------
+
+2025-03-25 13:10:37,509 - INFO - Epoch 21/310 started
+2025-03-25 13:13:16,361 - INFO - Epoch 21 training completed. Avg Loss: 2.9147, LR: 0.098977
+2025-03-25 13:13:19,944 - INFO - Validation completed - Loss: 2.6326, Top1: 53.38%, Top5: 81.24%
+2025-03-25 13:13:20,112 - INFO - New best model saved with Top1 Acc: 53.38%
+2025-03-25 13:13:20,112 - INFO - Epoch 21 Summary: 
+Train Loss: 2.9147 | Val Loss: 2.6326
+Top1 Acc: 53.38% | Top5 Acc: 81.24%
+----------------------------------------
+
+2025-03-25 13:13:20,112 - INFO - Epoch 22/310 started
+2025-03-25 13:15:58,863 - INFO - Epoch 22 training completed. Avg Loss: 2.8968, LR: 0.098872
+2025-03-25 13:16:02,472 - INFO - Validation completed - Loss: 2.5591, Top1: 55.20%, Top5: 83.46%
+2025-03-25 13:16:02,644 - INFO - New best model saved with Top1 Acc: 55.20%
+2025-03-25 13:16:02,644 - INFO - Epoch 22 Summary: 
+Train Loss: 2.8968 | Val Loss: 2.5591
+Top1 Acc: 55.20% | Top5 Acc: 83.46%
+----------------------------------------
+
+2025-03-25 13:16:02,644 - INFO - Epoch 23/310 started
+2025-03-25 13:18:41,120 - INFO - Epoch 23 training completed. Avg Loss: 2.8845, LR: 0.098763
+2025-03-25 13:18:44,811 - INFO - Validation completed - Loss: 2.6427, Top1: 53.80%, Top5: 81.42%
+2025-03-25 13:18:44,812 - INFO - Epoch 23 Summary: 
+Train Loss: 2.8845 | Val Loss: 2.6427
+Top1 Acc: 53.80% | Top5 Acc: 81.42%
+----------------------------------------
+
+2025-03-25 13:18:44,812 - INFO - Epoch 24/310 started
+2025-03-25 13:21:23,645 - INFO - Epoch 24 training completed. Avg Loss: 2.8593, LR: 0.098648
+2025-03-25 13:21:27,335 - INFO - Validation completed - Loss: 2.5893, Top1: 54.94%, Top5: 82.50%
+2025-03-25 13:21:27,335 - INFO - Epoch 24 Summary: 
+Train Loss: 2.8593 | Val Loss: 2.5893
+Top1 Acc: 54.94% | Top5 Acc: 82.50%
+----------------------------------------
+
+2025-03-25 13:21:27,336 - INFO - Epoch 25/310 started
+2025-03-25 13:24:05,874 - INFO - Epoch 25 training completed. Avg Loss: 2.8469, LR: 0.098529
+2025-03-25 13:24:09,521 - INFO - Validation completed - Loss: 2.5524, Top1: 55.68%, Top5: 83.32%
+2025-03-25 13:24:09,680 - INFO - New best model saved with Top1 Acc: 55.68%
+2025-03-25 13:24:09,680 - INFO - Epoch 25 Summary: 
+Train Loss: 2.8469 | Val Loss: 2.5524
+Top1 Acc: 55.68% | Top5 Acc: 83.32%
+----------------------------------------
+
+2025-03-25 13:24:09,680 - INFO - Epoch 26/310 started
+2025-03-25 13:26:48,519 - INFO - Epoch 26 training completed. Avg Loss: 2.8328, LR: 0.098404
+2025-03-25 13:26:52,186 - INFO - Validation completed - Loss: 2.6479, Top1: 52.96%, Top5: 81.10%
+2025-03-25 13:26:52,187 - INFO - Epoch 26 Summary: 
+Train Loss: 2.8328 | Val Loss: 2.6479
+Top1 Acc: 52.96% | Top5 Acc: 81.10%
+----------------------------------------
+
+2025-03-25 13:26:52,187 - INFO - Epoch 27/310 started
+2025-03-25 13:29:31,175 - INFO - Epoch 27 training completed. Avg Loss: 2.8168, LR: 0.098275
+2025-03-25 13:29:34,835 - INFO - Validation completed - Loss: 2.5215, Top1: 55.80%, Top5: 84.68%
+2025-03-25 13:29:34,994 - INFO - New best model saved with Top1 Acc: 55.80%
+2025-03-25 13:29:34,994 - INFO - Epoch 27 Summary: 
+Train Loss: 2.8168 | Val Loss: 2.5215
+Top1 Acc: 55.80% | Top5 Acc: 84.68%
+----------------------------------------
+
+2025-03-25 13:29:34,994 - INFO - Epoch 28/310 started
+2025-03-25 13:32:14,077 - INFO - Epoch 28 training completed. Avg Loss: 2.8052, LR: 0.098140
+2025-03-25 13:32:17,657 - INFO - Validation completed - Loss: 2.5381, Top1: 56.88%, Top5: 83.76%
+2025-03-25 13:32:17,824 - INFO - New best model saved with Top1 Acc: 56.88%
+2025-03-25 13:32:17,825 - INFO - Epoch 28 Summary: 
+Train Loss: 2.8052 | Val Loss: 2.5381
+Top1 Acc: 56.88% | Top5 Acc: 83.76%
+----------------------------------------
+
+2025-03-25 13:32:17,825 - INFO - Epoch 29/310 started
+2025-03-25 13:34:56,461 - INFO - Epoch 29 training completed. Avg Loss: 2.7924, LR: 0.098001
+2025-03-25 13:35:00,092 - INFO - Validation completed - Loss: 2.5494, Top1: 55.22%, Top5: 83.94%
+2025-03-25 13:35:00,093 - INFO - Epoch 29 Summary: 
+Train Loss: 2.7924 | Val Loss: 2.5494
+Top1 Acc: 55.22% | Top5 Acc: 83.94%
+----------------------------------------
+
+2025-03-25 13:35:00,093 - INFO - Epoch 30/310 started
+2025-03-25 13:37:39,075 - INFO - Epoch 30 training completed. Avg Loss: 2.7817, LR: 0.097856
+2025-03-25 13:37:42,812 - INFO - Validation completed - Loss: 2.4745, Top1: 57.84%, Top5: 84.34%
+2025-03-25 13:37:42,973 - INFO - New best model saved with Top1 Acc: 57.84%
+2025-03-25 13:37:42,973 - INFO - Epoch 30 Summary: 
+Train Loss: 2.7817 | Val Loss: 2.4745
+Top1 Acc: 57.84% | Top5 Acc: 84.34%
+----------------------------------------
+
+2025-03-25 13:37:42,973 - INFO - Epoch 31/310 started
+2025-03-25 13:40:21,570 - INFO - Epoch 31 training completed. Avg Loss: 2.7740, LR: 0.097707
+2025-03-25 13:40:25,159 - INFO - Validation completed - Loss: 2.4778, Top1: 57.72%, Top5: 84.52%
+2025-03-25 13:40:25,159 - INFO - Epoch 31 Summary: 
+Train Loss: 2.7740 | Val Loss: 2.4778
+Top1 Acc: 57.72% | Top5 Acc: 84.52%
+----------------------------------------
+
+2025-03-25 13:40:25,160 - INFO - Epoch 32/310 started
+2025-03-25 13:43:02,662 - INFO - Epoch 32 training completed. Avg Loss: 2.7586, LR: 0.097553
+2025-03-25 13:43:06,247 - INFO - Validation completed - Loss: 2.4963, Top1: 57.92%, Top5: 83.88%
+2025-03-25 13:43:06,412 - INFO - New best model saved with Top1 Acc: 57.92%
+2025-03-25 13:43:06,412 - INFO - Epoch 32 Summary: 
+Train Loss: 2.7586 | Val Loss: 2.4963
+Top1 Acc: 57.92% | Top5 Acc: 83.88%
+----------------------------------------
+
+2025-03-25 13:43:06,412 - INFO - Epoch 33/310 started
+2025-03-25 13:45:44,892 - INFO - Epoch 33 training completed. Avg Loss: 2.7482, LR: 0.097394
+2025-03-25 13:45:48,614 - INFO - Validation completed - Loss: 2.4735, Top1: 57.46%, Top5: 84.20%
+2025-03-25 13:45:48,614 - INFO - Epoch 33 Summary: 
+Train Loss: 2.7482 | Val Loss: 2.4735
+Top1 Acc: 57.46% | Top5 Acc: 84.20%
+----------------------------------------
+
+2025-03-25 13:45:48,614 - INFO - Epoch 34/310 started
+2025-03-25 13:48:27,905 - INFO - Epoch 34 training completed. Avg Loss: 2.7447, LR: 0.097230
+2025-03-25 13:48:31,712 - INFO - Validation completed - Loss: 2.4393, Top1: 58.50%, Top5: 85.02%
+2025-03-25 13:48:31,885 - INFO - New best model saved with Top1 Acc: 58.50%
+2025-03-25 13:48:31,885 - INFO - Epoch 34 Summary: 
+Train Loss: 2.7447 | Val Loss: 2.4393
+Top1 Acc: 58.50% | Top5 Acc: 85.02%
+----------------------------------------
+
+2025-03-25 13:48:31,885 - INFO - Epoch 35/310 started
+2025-03-25 13:51:11,395 - INFO - Epoch 35 training completed. Avg Loss: 2.7288, LR: 0.097061
+2025-03-25 13:51:15,004 - INFO - Validation completed - Loss: 2.5141, Top1: 56.22%, Top5: 83.74%
+2025-03-25 13:51:15,005 - INFO - Epoch 35 Summary: 
+Train Loss: 2.7288 | Val Loss: 2.5141
+Top1 Acc: 56.22% | Top5 Acc: 83.74%
+----------------------------------------
+
+2025-03-25 13:51:15,005 - INFO - Epoch 36/310 started
+2025-03-25 13:53:54,463 - INFO - Epoch 36 training completed. Avg Loss: 2.7196, LR: 0.096888
+2025-03-25 13:53:57,958 - INFO - Validation completed - Loss: 2.4753, Top1: 57.34%, Top5: 84.52%
+2025-03-25 13:53:57,958 - INFO - Epoch 36 Summary: 
+Train Loss: 2.7196 | Val Loss: 2.4753
+Top1 Acc: 57.34% | Top5 Acc: 84.52%
+----------------------------------------
+
+2025-03-25 13:53:57,958 - INFO - Epoch 37/310 started
+2025-03-25 13:56:37,394 - INFO - Epoch 37 training completed. Avg Loss: 2.7099, LR: 0.096710
+2025-03-25 13:56:40,906 - INFO - Validation completed - Loss: 2.4687, Top1: 58.44%, Top5: 85.00%
+2025-03-25 13:56:40,906 - INFO - Epoch 37 Summary: 
+Train Loss: 2.7099 | Val Loss: 2.4687
+Top1 Acc: 58.44% | Top5 Acc: 85.00%
+----------------------------------------
+
+2025-03-25 13:56:40,906 - INFO - Epoch 38/310 started
+2025-03-25 13:59:20,303 - INFO - Epoch 38 training completed. Avg Loss: 2.7034, LR: 0.096526
+2025-03-25 13:59:23,761 - INFO - Validation completed - Loss: 2.4715, Top1: 57.48%, Top5: 84.52%
+2025-03-25 13:59:23,762 - INFO - Epoch 38 Summary: 
+Train Loss: 2.7034 | Val Loss: 2.4715
+Top1 Acc: 57.48% | Top5 Acc: 84.52%
+----------------------------------------
+
+2025-03-25 13:59:23,762 - INFO - Epoch 39/310 started
+2025-03-25 14:02:03,123 - INFO - Epoch 39 training completed. Avg Loss: 2.6939, LR: 0.096338
+2025-03-25 14:02:06,690 - INFO - Validation completed - Loss: 2.4432, Top1: 59.10%, Top5: 85.86%
+2025-03-25 14:02:06,875 - INFO - New best model saved with Top1 Acc: 59.10%
+2025-03-25 14:02:06,875 - INFO - Epoch 39 Summary: 
+Train Loss: 2.6939 | Val Loss: 2.4432
+Top1 Acc: 59.10% | Top5 Acc: 85.86%
+----------------------------------------
+
+2025-03-25 14:02:06,875 - INFO - Epoch 40/310 started
+2025-03-25 14:04:46,435 - INFO - Epoch 40 training completed. Avg Loss: 2.6891, LR: 0.096146
+2025-03-25 14:04:50,239 - INFO - Validation completed - Loss: 2.3830, Top1: 60.50%, Top5: 86.66%
+2025-03-25 14:04:50,400 - INFO - New best model saved with Top1 Acc: 60.50%
+2025-03-25 14:04:50,400 - INFO - Epoch 40 Summary: 
+Train Loss: 2.6891 | Val Loss: 2.3830
+Top1 Acc: 60.50% | Top5 Acc: 86.66%
+----------------------------------------
+
+2025-03-25 14:04:50,400 - INFO - Epoch 41/310 started
+2025-03-25 14:07:30,193 - INFO - Epoch 41 training completed. Avg Loss: 2.6755, LR: 0.095948
+2025-03-25 14:07:33,907 - INFO - Validation completed - Loss: 2.4173, Top1: 59.26%, Top5: 85.96%
+2025-03-25 14:07:33,908 - INFO - Epoch 41 Summary: 
+Train Loss: 2.6755 | Val Loss: 2.4173
+Top1 Acc: 59.26% | Top5 Acc: 85.96%
+----------------------------------------
+
+2025-03-25 14:07:33,908 - INFO - Epoch 42/310 started
+2025-03-25 14:10:13,600 - INFO - Epoch 42 training completed. Avg Loss: 2.6722, LR: 0.095746
+2025-03-25 14:10:17,378 - INFO - Validation completed - Loss: 2.3737, Top1: 60.72%, Top5: 86.16%
+2025-03-25 14:10:17,541 - INFO - New best model saved with Top1 Acc: 60.72%
+2025-03-25 14:10:17,541 - INFO - Epoch 42 Summary: 
+Train Loss: 2.6722 | Val Loss: 2.3737
+Top1 Acc: 60.72% | Top5 Acc: 86.16%
+----------------------------------------
+
+2025-03-25 14:10:17,541 - INFO - Epoch 43/310 started
+2025-03-25 14:12:57,255 - INFO - Epoch 43 training completed. Avg Loss: 2.6684, LR: 0.095539
+2025-03-25 14:13:01,004 - INFO - Validation completed - Loss: 2.4448, Top1: 58.82%, Top5: 85.04%
+2025-03-25 14:13:01,005 - INFO - Epoch 43 Summary: 
+Train Loss: 2.6684 | Val Loss: 2.4448
+Top1 Acc: 58.82% | Top5 Acc: 85.04%
+----------------------------------------
+
+2025-03-25 14:13:01,005 - INFO - Epoch 44/310 started
+2025-03-25 14:15:40,772 - INFO - Epoch 44 training completed. Avg Loss: 2.6549, LR: 0.095328
+2025-03-25 14:15:44,562 - INFO - Validation completed - Loss: 2.3576, Top1: 61.00%, Top5: 86.64%
+2025-03-25 14:15:44,720 - INFO - New best model saved with Top1 Acc: 61.00%
+2025-03-25 14:15:44,721 - INFO - Epoch 44 Summary: 
+Train Loss: 2.6549 | Val Loss: 2.3576
+Top1 Acc: 61.00% | Top5 Acc: 86.64%
+----------------------------------------
+
+2025-03-25 14:15:44,721 - INFO - Epoch 45/310 started
+2025-03-25 14:18:24,212 - INFO - Epoch 45 training completed. Avg Loss: 2.6554, LR: 0.095112
+2025-03-25 14:18:27,988 - INFO - Validation completed - Loss: 2.3528, Top1: 61.20%, Top5: 86.90%
+2025-03-25 14:18:28,145 - INFO - New best model saved with Top1 Acc: 61.20%
+2025-03-25 14:18:28,145 - INFO - Epoch 45 Summary: 
+Train Loss: 2.6554 | Val Loss: 2.3528
+Top1 Acc: 61.20% | Top5 Acc: 86.90%
+----------------------------------------
+
+2025-03-25 14:18:28,145 - INFO - Epoch 46/310 started
+2025-03-25 14:21:07,938 - INFO - Epoch 46 training completed. Avg Loss: 2.6415, LR: 0.094891
+2025-03-25 14:21:11,687 - INFO - Validation completed - Loss: 2.3822, Top1: 61.06%, Top5: 86.04%
+2025-03-25 14:21:11,688 - INFO - Epoch 46 Summary: 
+Train Loss: 2.6415 | Val Loss: 2.3822
+Top1 Acc: 61.06% | Top5 Acc: 86.04%
+----------------------------------------
+
+2025-03-25 14:21:11,688 - INFO - Epoch 47/310 started
+2025-03-25 14:23:51,544 - INFO - Epoch 47 training completed. Avg Loss: 2.6351, LR: 0.094665
+2025-03-25 14:23:55,336 - INFO - Validation completed - Loss: 2.3773, Top1: 61.64%, Top5: 86.74%
+2025-03-25 14:23:55,497 - INFO - New best model saved with Top1 Acc: 61.64%
+2025-03-25 14:23:55,498 - INFO - Epoch 47 Summary: 
+Train Loss: 2.6351 | Val Loss: 2.3773
+Top1 Acc: 61.64% | Top5 Acc: 86.74%
+----------------------------------------
+
+2025-03-25 14:23:55,498 - INFO - Epoch 48/310 started
+2025-03-25 14:26:35,288 - INFO - Epoch 48 training completed. Avg Loss: 2.6281, LR: 0.094435
+2025-03-25 14:26:38,964 - INFO - Validation completed - Loss: 2.3384, Top1: 61.50%, Top5: 87.24%
+2025-03-25 14:26:38,965 - INFO - Epoch 48 Summary: 
+Train Loss: 2.6281 | Val Loss: 2.3384
+Top1 Acc: 61.50% | Top5 Acc: 87.24%
+----------------------------------------
+
+2025-03-25 14:26:38,965 - INFO - Epoch 49/310 started
+2025-03-25 14:29:18,829 - INFO - Epoch 49 training completed. Avg Loss: 2.6316, LR: 0.094201
+2025-03-25 14:29:22,610 - INFO - Validation completed - Loss: 2.3259, Top1: 61.90%, Top5: 87.68%
+2025-03-25 14:29:22,772 - INFO - New best model saved with Top1 Acc: 61.90%
+2025-03-25 14:29:22,772 - INFO - Epoch 49 Summary: 
+Train Loss: 2.6316 | Val Loss: 2.3259
+Top1 Acc: 61.90% | Top5 Acc: 87.68%
+----------------------------------------
+
+2025-03-25 14:29:22,772 - INFO - Epoch 50/310 started
+2025-03-25 14:32:02,618 - INFO - Epoch 50 training completed. Avg Loss: 2.6247, LR: 0.093962
+2025-03-25 14:32:06,552 - INFO - Validation completed - Loss: 2.3577, Top1: 61.72%, Top5: 86.68%
+2025-03-25 14:32:06,553 - INFO - Epoch 50 Summary: 
+Train Loss: 2.6247 | Val Loss: 2.3577
+Top1 Acc: 61.72% | Top5 Acc: 86.68%
+----------------------------------------
+
+2025-03-25 14:32:06,553 - INFO - Epoch 51/310 started
+2025-03-25 14:34:46,295 - INFO - Epoch 51 training completed. Avg Loss: 2.6185, LR: 0.093718
+2025-03-25 14:34:49,967 - INFO - Validation completed - Loss: 2.3223, Top1: 62.18%, Top5: 86.96%
+2025-03-25 14:34:50,127 - INFO - New best model saved with Top1 Acc: 62.18%
+2025-03-25 14:34:50,127 - INFO - Epoch 51 Summary: 
+Train Loss: 2.6185 | Val Loss: 2.3223
+Top1 Acc: 62.18% | Top5 Acc: 86.96%
+----------------------------------------
+
+2025-03-25 14:34:50,127 - INFO - Epoch 52/310 started
+2025-03-25 14:37:30,055 - INFO - Epoch 52 training completed. Avg Loss: 2.6081, LR: 0.093470
+2025-03-25 14:37:33,735 - INFO - Validation completed - Loss: 2.3464, Top1: 61.72%, Top5: 86.80%
+2025-03-25 14:37:33,736 - INFO - Epoch 52 Summary: 
+Train Loss: 2.6081 | Val Loss: 2.3464
+Top1 Acc: 61.72% | Top5 Acc: 86.80%
+----------------------------------------
+
+2025-03-25 14:37:33,736 - INFO - Epoch 53/310 started
+2025-03-25 14:40:13,371 - INFO - Epoch 53 training completed. Avg Loss: 2.6056, LR: 0.093217
+2025-03-25 14:40:17,087 - INFO - Validation completed - Loss: 2.3100, Top1: 62.76%, Top5: 88.30%
+2025-03-25 14:40:17,257 - INFO - New best model saved with Top1 Acc: 62.76%
+2025-03-25 14:40:17,258 - INFO - Epoch 53 Summary: 
+Train Loss: 2.6056 | Val Loss: 2.3100
+Top1 Acc: 62.76% | Top5 Acc: 88.30%
+----------------------------------------
+
+2025-03-25 14:40:17,258 - INFO - Epoch 54/310 started
+2025-03-25 14:42:57,006 - INFO - Epoch 54 training completed. Avg Loss: 2.6011, LR: 0.092960
+2025-03-25 14:43:00,665 - INFO - Validation completed - Loss: 2.3323, Top1: 62.02%, Top5: 87.10%
+2025-03-25 14:43:00,665 - INFO - Epoch 54 Summary: 
+Train Loss: 2.6011 | Val Loss: 2.3323
+Top1 Acc: 62.02% | Top5 Acc: 87.10%
+----------------------------------------
+
+2025-03-25 14:43:00,665 - INFO - Epoch 55/310 started
+2025-03-25 14:45:40,478 - INFO - Epoch 55 training completed. Avg Loss: 2.5985, LR: 0.092699
+2025-03-25 14:45:44,159 - INFO - Validation completed - Loss: 2.3608, Top1: 60.88%, Top5: 86.78%
+2025-03-25 14:45:44,159 - INFO - Epoch 55 Summary: 
+Train Loss: 2.5985 | Val Loss: 2.3608
+Top1 Acc: 60.88% | Top5 Acc: 86.78%
+----------------------------------------
+
+2025-03-25 14:45:44,159 - INFO - Epoch 56/310 started
+2025-03-25 14:48:23,850 - INFO - Epoch 56 training completed. Avg Loss: 2.5918, LR: 0.092433
+2025-03-25 14:48:27,506 - INFO - Validation completed - Loss: 2.3164, Top1: 62.64%, Top5: 87.50%
+2025-03-25 14:48:27,506 - INFO - Epoch 56 Summary: 
+Train Loss: 2.5918 | Val Loss: 2.3164
+Top1 Acc: 62.64% | Top5 Acc: 87.50%
+----------------------------------------
+
+2025-03-25 14:48:27,506 - INFO - Epoch 57/310 started
+2025-03-25 14:51:07,071 - INFO - Epoch 57 training completed. Avg Loss: 2.5847, LR: 0.092163
+2025-03-25 14:51:10,572 - INFO - Validation completed - Loss: 2.2993, Top1: 63.10%, Top5: 87.26%
+2025-03-25 14:51:10,731 - INFO - New best model saved with Top1 Acc: 63.10%
+2025-03-25 14:51:10,731 - INFO - Epoch 57 Summary: 
+Train Loss: 2.5847 | Val Loss: 2.2993
+Top1 Acc: 63.10% | Top5 Acc: 87.26%
+----------------------------------------
+
+2025-03-25 14:51:10,731 - INFO - Epoch 58/310 started
+2025-03-25 14:53:50,420 - INFO - Epoch 58 training completed. Avg Loss: 2.5800, LR: 0.091888
+2025-03-25 14:53:53,936 - INFO - Validation completed - Loss: 2.3082, Top1: 62.14%, Top5: 87.34%
+2025-03-25 14:53:53,937 - INFO - Epoch 58 Summary: 
+Train Loss: 2.5800 | Val Loss: 2.3082
+Top1 Acc: 62.14% | Top5 Acc: 87.34%
+----------------------------------------
+
+2025-03-25 14:53:53,937 - INFO - Epoch 59/310 started
+2025-03-25 14:56:33,704 - INFO - Epoch 59 training completed. Avg Loss: 2.5722, LR: 0.091609
+2025-03-25 14:56:37,379 - INFO - Validation completed - Loss: 2.2854, Top1: 63.78%, Top5: 88.28%
+2025-03-25 14:56:37,545 - INFO - New best model saved with Top1 Acc: 63.78%
+2025-03-25 14:56:37,545 - INFO - Epoch 59 Summary: 
+Train Loss: 2.5722 | Val Loss: 2.2854
+Top1 Acc: 63.78% | Top5 Acc: 88.28%
+----------------------------------------
+
+2025-03-25 14:56:37,545 - INFO - Epoch 60/310 started
+2025-03-25 14:59:17,090 - INFO - Epoch 60 training completed. Avg Loss: 2.5743, LR: 0.091326
+2025-03-25 14:59:20,696 - INFO - Validation completed - Loss: 2.3377, Top1: 61.84%, Top5: 86.86%
+2025-03-25 14:59:20,696 - INFO - Epoch 60 Summary: 
+Train Loss: 2.5743 | Val Loss: 2.3377
+Top1 Acc: 61.84% | Top5 Acc: 86.86%
+----------------------------------------
+
+2025-03-25 14:59:20,697 - INFO - Epoch 61/310 started
+2025-03-25 15:02:00,261 - INFO - Epoch 61 training completed. Avg Loss: 2.5677, LR: 0.091039
+2025-03-25 15:02:03,938 - INFO - Validation completed - Loss: 2.3141, Top1: 62.94%, Top5: 87.64%
+2025-03-25 15:02:03,939 - INFO - Epoch 61 Summary: 
+Train Loss: 2.5677 | Val Loss: 2.3141
+Top1 Acc: 62.94% | Top5 Acc: 87.64%
+----------------------------------------
+
+2025-03-25 15:02:03,939 - INFO - Epoch 62/310 started
+2025-03-25 15:04:43,475 - INFO - Epoch 62 training completed. Avg Loss: 2.5634, LR: 0.090748
+2025-03-25 15:04:47,101 - INFO - Validation completed - Loss: 2.2433, Top1: 65.04%, Top5: 88.54%
+2025-03-25 15:04:47,260 - INFO - New best model saved with Top1 Acc: 65.04%
+2025-03-25 15:04:47,260 - INFO - Epoch 62 Summary: 
+Train Loss: 2.5634 | Val Loss: 2.2433
+Top1 Acc: 65.04% | Top5 Acc: 88.54%
+----------------------------------------
+
+2025-03-25 15:04:47,260 - INFO - Epoch 63/310 started
+2025-03-25 15:07:26,800 - INFO - Epoch 63 training completed. Avg Loss: 2.5579, LR: 0.090452
+2025-03-25 15:07:30,425 - INFO - Validation completed - Loss: 2.2857, Top1: 63.98%, Top5: 87.76%
+2025-03-25 15:07:30,425 - INFO - Epoch 63 Summary: 
+Train Loss: 2.5579 | Val Loss: 2.2857
+Top1 Acc: 63.98% | Top5 Acc: 87.76%
+----------------------------------------
+
+2025-03-25 15:07:30,425 - INFO - Epoch 64/310 started
+2025-03-25 15:10:10,068 - INFO - Epoch 64 training completed. Avg Loss: 2.5511, LR: 0.090152
+2025-03-25 15:10:13,704 - INFO - Validation completed - Loss: 2.2393, Top1: 65.32%, Top5: 88.42%
+2025-03-25 15:10:13,877 - INFO - New best model saved with Top1 Acc: 65.32%
+2025-03-25 15:10:13,877 - INFO - Epoch 64 Summary: 
+Train Loss: 2.5511 | Val Loss: 2.2393
+Top1 Acc: 65.32% | Top5 Acc: 88.42%
+----------------------------------------
+
+2025-03-25 15:10:13,877 - INFO - Epoch 65/310 started
+2025-03-25 15:12:53,278 - INFO - Epoch 65 training completed. Avg Loss: 2.5470, LR: 0.089848
+2025-03-25 15:12:56,893 - INFO - Validation completed - Loss: 2.2671, Top1: 64.54%, Top5: 88.10%
+2025-03-25 15:12:56,893 - INFO - Epoch 65 Summary: 
+Train Loss: 2.5470 | Val Loss: 2.2671
+Top1 Acc: 64.54% | Top5 Acc: 88.10%
+----------------------------------------
+
+2025-03-25 15:12:56,893 - INFO - Epoch 66/310 started
+2025-03-25 15:15:36,484 - INFO - Epoch 66 training completed. Avg Loss: 2.5408, LR: 0.089540
+2025-03-25 15:15:40,116 - INFO - Validation completed - Loss: 2.2785, Top1: 63.62%, Top5: 87.16%
+2025-03-25 15:15:40,116 - INFO - Epoch 66 Summary: 
+Train Loss: 2.5408 | Val Loss: 2.2785
+Top1 Acc: 63.62% | Top5 Acc: 87.16%
+----------------------------------------
+
+2025-03-25 15:15:40,116 - INFO - Epoch 67/310 started
+2025-03-25 15:18:19,675 - INFO - Epoch 67 training completed. Avg Loss: 2.5373, LR: 0.089228
+2025-03-25 15:18:23,279 - INFO - Validation completed - Loss: 2.3174, Top1: 62.30%, Top5: 87.88%
+2025-03-25 15:18:23,280 - INFO - Epoch 67 Summary: 
+Train Loss: 2.5373 | Val Loss: 2.3174
+Top1 Acc: 62.30% | Top5 Acc: 87.88%
+----------------------------------------
+
+2025-03-25 15:18:23,280 - INFO - Epoch 68/310 started
+2025-03-25 15:21:02,667 - INFO - Epoch 68 training completed. Avg Loss: 2.5375, LR: 0.088911
+2025-03-25 15:21:06,249 - INFO - Validation completed - Loss: 2.2630, Top1: 63.92%, Top5: 88.40%
+2025-03-25 15:21:06,249 - INFO - Epoch 68 Summary: 
+Train Loss: 2.5375 | Val Loss: 2.2630
+Top1 Acc: 63.92% | Top5 Acc: 88.40%
+----------------------------------------
+
+2025-03-25 15:21:06,249 - INFO - Epoch 69/310 started
+2025-03-25 15:23:45,759 - INFO - Epoch 69 training completed. Avg Loss: 2.5396, LR: 0.088591
+2025-03-25 15:23:49,404 - INFO - Validation completed - Loss: 2.3159, Top1: 63.28%, Top5: 87.18%
+2025-03-25 15:23:49,404 - INFO - Epoch 69 Summary: 
+Train Loss: 2.5396 | Val Loss: 2.3159
+Top1 Acc: 63.28% | Top5 Acc: 87.18%
+----------------------------------------
+
+2025-03-25 15:23:49,404 - INFO - Epoch 70/310 started
+2025-03-25 15:26:28,972 - INFO - Epoch 70 training completed. Avg Loss: 2.5324, LR: 0.088267
+2025-03-25 15:26:32,593 - INFO - Validation completed - Loss: 2.3089, Top1: 62.46%, Top5: 87.60%
+2025-03-25 15:26:32,594 - INFO - Epoch 70 Summary: 
+Train Loss: 2.5324 | Val Loss: 2.3089
+Top1 Acc: 62.46% | Top5 Acc: 87.60%
+----------------------------------------
+
+2025-03-25 15:26:32,594 - INFO - Epoch 71/310 started
+2025-03-25 15:29:11,968 - INFO - Epoch 71 training completed. Avg Loss: 2.5282, LR: 0.087939
+2025-03-25 15:29:15,566 - INFO - Validation completed - Loss: 2.2925, Top1: 63.72%, Top5: 88.16%
+2025-03-25 15:29:15,567 - INFO - Epoch 71 Summary: 
+Train Loss: 2.5282 | Val Loss: 2.2925
+Top1 Acc: 63.72% | Top5 Acc: 88.16%
+----------------------------------------
+
+2025-03-25 15:29:15,567 - INFO - Epoch 72/310 started
+2025-03-25 15:31:55,066 - INFO - Epoch 72 training completed. Avg Loss: 2.5211, LR: 0.087607
+2025-03-25 15:31:58,728 - INFO - Validation completed - Loss: 2.2570, Top1: 64.50%, Top5: 88.82%
+2025-03-25 15:31:58,729 - INFO - Epoch 72 Summary: 
+Train Loss: 2.5211 | Val Loss: 2.2570
+Top1 Acc: 64.50% | Top5 Acc: 88.82%
+----------------------------------------
+
+2025-03-25 15:31:58,729 - INFO - Epoch 73/310 started
+2025-03-25 15:34:38,069 - INFO - Epoch 73 training completed. Avg Loss: 2.5167, LR: 0.087271
+2025-03-25 15:34:41,596 - INFO - Validation completed - Loss: 2.2851, Top1: 64.82%, Top5: 88.28%
+2025-03-25 15:34:41,597 - INFO - Epoch 73 Summary: 
+Train Loss: 2.5167 | Val Loss: 2.2851
+Top1 Acc: 64.82% | Top5 Acc: 88.28%
+----------------------------------------
+
+2025-03-25 15:34:41,597 - INFO - Epoch 74/310 started
+2025-03-25 15:37:21,046 - INFO - Epoch 74 training completed. Avg Loss: 2.5159, LR: 0.086932
+2025-03-25 15:37:24,621 - INFO - Validation completed - Loss: 2.2027, Top1: 65.92%, Top5: 89.56%
+2025-03-25 15:37:24,781 - INFO - New best model saved with Top1 Acc: 65.92%
+2025-03-25 15:37:24,782 - INFO - Epoch 74 Summary: 
+Train Loss: 2.5159 | Val Loss: 2.2027
+Top1 Acc: 65.92% | Top5 Acc: 89.56%
+----------------------------------------
+
+2025-03-25 15:37:24,782 - INFO - Epoch 75/310 started
+2025-03-25 15:40:04,358 - INFO - Epoch 75 training completed. Avg Loss: 2.5149, LR: 0.086588
+2025-03-25 15:40:07,959 - INFO - Validation completed - Loss: 2.2401, Top1: 65.42%, Top5: 88.42%
+2025-03-25 15:40:07,960 - INFO - Epoch 75 Summary: 
+Train Loss: 2.5149 | Val Loss: 2.2401
+Top1 Acc: 65.42% | Top5 Acc: 88.42%
+----------------------------------------
+
+2025-03-25 15:40:07,960 - INFO - Epoch 76/310 started
+2025-03-25 15:42:47,296 - INFO - Epoch 76 training completed. Avg Loss: 2.5114, LR: 0.086241
+2025-03-25 15:42:50,978 - INFO - Validation completed - Loss: 2.2590, Top1: 64.86%, Top5: 88.28%
+2025-03-25 15:42:50,978 - INFO - Epoch 76 Summary: 
+Train Loss: 2.5114 | Val Loss: 2.2590
+Top1 Acc: 64.86% | Top5 Acc: 88.28%
+----------------------------------------
+
+2025-03-25 15:42:50,978 - INFO - Epoch 77/310 started
+2025-03-25 15:45:30,451 - INFO - Epoch 77 training completed. Avg Loss: 2.5102, LR: 0.085890
+2025-03-25 15:45:34,117 - INFO - Validation completed - Loss: 2.2154, Top1: 66.00%, Top5: 88.70%
+2025-03-25 15:45:34,276 - INFO - New best model saved with Top1 Acc: 66.00%
+2025-03-25 15:45:34,276 - INFO - Epoch 77 Summary: 
+Train Loss: 2.5102 | Val Loss: 2.2154
+Top1 Acc: 66.00% | Top5 Acc: 88.70%
+----------------------------------------
+
+2025-03-25 15:45:34,276 - INFO - Epoch 78/310 started
+2025-03-25 15:48:13,625 - INFO - Epoch 78 training completed. Avg Loss: 2.4986, LR: 0.085535
+2025-03-25 15:48:17,284 - INFO - Validation completed - Loss: 2.2472, Top1: 63.94%, Top5: 88.82%
+2025-03-25 15:48:17,284 - INFO - Epoch 78 Summary: 
+Train Loss: 2.4986 | Val Loss: 2.2472
+Top1 Acc: 63.94% | Top5 Acc: 88.82%
+----------------------------------------
+
+2025-03-25 15:48:17,285 - INFO - Epoch 79/310 started
+2025-03-25 15:50:56,836 - INFO - Epoch 79 training completed. Avg Loss: 2.4955, LR: 0.085177
+2025-03-25 15:51:00,631 - INFO - Validation completed - Loss: 2.2255, Top1: 65.90%, Top5: 88.84%
+2025-03-25 15:51:00,632 - INFO - Epoch 79 Summary: 
+Train Loss: 2.4955 | Val Loss: 2.2255
+Top1 Acc: 65.90% | Top5 Acc: 88.84%
+----------------------------------------
+
+2025-03-25 15:51:00,632 - INFO - Epoch 80/310 started
+2025-03-25 15:53:40,299 - INFO - Epoch 80 training completed. Avg Loss: 2.4964, LR: 0.084815
+2025-03-25 15:53:43,945 - INFO - Validation completed - Loss: 2.2432, Top1: 65.54%, Top5: 89.08%
+2025-03-25 15:53:43,946 - INFO - Epoch 80 Summary: 
+Train Loss: 2.4964 | Val Loss: 2.2432
+Top1 Acc: 65.54% | Top5 Acc: 89.08%
+----------------------------------------
+
+2025-03-25 15:53:43,946 - INFO - Epoch 81/310 started
+2025-03-25 15:56:23,426 - INFO - Epoch 81 training completed. Avg Loss: 2.4916, LR: 0.084450
+2025-03-25 15:56:27,124 - INFO - Validation completed - Loss: 2.2607, Top1: 64.64%, Top5: 88.74%
+2025-03-25 15:56:27,125 - INFO - Epoch 81 Summary: 
+Train Loss: 2.4916 | Val Loss: 2.2607
+Top1 Acc: 64.64% | Top5 Acc: 88.74%
+----------------------------------------
+
+2025-03-25 15:56:27,125 - INFO - Epoch 82/310 started
+2025-03-25 15:59:06,710 - INFO - Epoch 82 training completed. Avg Loss: 2.4892, LR: 0.084081
+2025-03-25 15:59:10,340 - INFO - Validation completed - Loss: 2.1796, Top1: 67.04%, Top5: 90.00%
+2025-03-25 15:59:10,496 - INFO - New best model saved with Top1 Acc: 67.04%
+2025-03-25 15:59:10,496 - INFO - Epoch 82 Summary: 
+Train Loss: 2.4892 | Val Loss: 2.1796
+Top1 Acc: 67.04% | Top5 Acc: 90.00%
+----------------------------------------
+
+2025-03-25 15:59:10,496 - INFO - Epoch 83/310 started
+2025-03-25 16:01:50,161 - INFO - Epoch 83 training completed. Avg Loss: 2.4826, LR: 0.083708
+2025-03-25 16:01:53,869 - INFO - Validation completed - Loss: 2.2215, Top1: 65.06%, Top5: 89.06%
+2025-03-25 16:01:53,870 - INFO - Epoch 83 Summary: 
+Train Loss: 2.4826 | Val Loss: 2.2215
+Top1 Acc: 65.06% | Top5 Acc: 89.06%
+----------------------------------------
+
+2025-03-25 16:01:53,870 - INFO - Epoch 84/310 started
+2025-03-25 16:04:33,348 - INFO - Epoch 84 training completed. Avg Loss: 2.4819, LR: 0.083332
+2025-03-25 16:04:36,901 - INFO - Validation completed - Loss: 2.2529, Top1: 64.98%, Top5: 89.30%
+2025-03-25 16:04:36,902 - INFO - Epoch 84 Summary: 
+Train Loss: 2.4819 | Val Loss: 2.2529
+Top1 Acc: 64.98% | Top5 Acc: 89.30%
+----------------------------------------
+
+2025-03-25 16:04:36,902 - INFO - Epoch 85/310 started
+2025-03-25 16:07:16,419 - INFO - Epoch 85 training completed. Avg Loss: 2.4774, LR: 0.082953
+2025-03-25 16:07:20,106 - INFO - Validation completed - Loss: 2.2199, Top1: 65.02%, Top5: 88.84%
+2025-03-25 16:07:20,106 - INFO - Epoch 85 Summary: 
+Train Loss: 2.4774 | Val Loss: 2.2199
+Top1 Acc: 65.02% | Top5 Acc: 88.84%
+----------------------------------------
+
+2025-03-25 16:07:20,106 - INFO - Epoch 86/310 started
+2025-03-25 16:09:59,604 - INFO - Epoch 86 training completed. Avg Loss: 2.4786, LR: 0.082570
+2025-03-25 16:10:03,245 - INFO - Validation completed - Loss: 2.2268, Top1: 65.32%, Top5: 88.80%
+2025-03-25 16:10:03,246 - INFO - Epoch 86 Summary: 
+Train Loss: 2.4786 | Val Loss: 2.2268
+Top1 Acc: 65.32% | Top5 Acc: 88.80%
+----------------------------------------
+
+2025-03-25 16:10:03,246 - INFO - Epoch 87/310 started
+2025-03-25 16:12:42,768 - INFO - Epoch 87 training completed. Avg Loss: 2.4685, LR: 0.082184
+2025-03-25 16:12:46,439 - INFO - Validation completed - Loss: 2.1971, Top1: 66.14%, Top5: 89.38%
+2025-03-25 16:12:46,439 - INFO - Epoch 87 Summary: 
+Train Loss: 2.4685 | Val Loss: 2.1971
+Top1 Acc: 66.14% | Top5 Acc: 89.38%
+----------------------------------------
+
+2025-03-25 16:12:46,439 - INFO - Epoch 88/310 started
+2025-03-25 16:15:26,214 - INFO - Epoch 88 training completed. Avg Loss: 2.4655, LR: 0.081795
+2025-03-25 16:15:29,855 - INFO - Validation completed - Loss: 2.1996, Top1: 66.78%, Top5: 89.48%
+2025-03-25 16:15:29,855 - INFO - Epoch 88 Summary: 
+Train Loss: 2.4655 | Val Loss: 2.1996
+Top1 Acc: 66.78% | Top5 Acc: 89.48%
+----------------------------------------
+
+2025-03-25 16:15:29,856 - INFO - Epoch 89/310 started
+2025-03-25 16:18:09,474 - INFO - Epoch 89 training completed. Avg Loss: 2.4687, LR: 0.081402
+2025-03-25 16:18:13,114 - INFO - Validation completed - Loss: 2.1915, Top1: 65.66%, Top5: 89.76%
+2025-03-25 16:18:13,114 - INFO - Epoch 89 Summary: 
+Train Loss: 2.4687 | Val Loss: 2.1915
+Top1 Acc: 65.66% | Top5 Acc: 89.76%
+----------------------------------------
+
+2025-03-25 16:18:13,115 - INFO - Epoch 90/310 started
+2025-03-25 16:20:52,672 - INFO - Epoch 90 training completed. Avg Loss: 2.4672, LR: 0.081006
+2025-03-25 16:20:56,134 - INFO - Validation completed - Loss: 2.1839, Top1: 67.14%, Top5: 89.64%
+2025-03-25 16:20:56,297 - INFO - New best model saved with Top1 Acc: 67.14%
+2025-03-25 16:20:56,297 - INFO - Epoch 90 Summary: 
+Train Loss: 2.4672 | Val Loss: 2.1839
+Top1 Acc: 67.14% | Top5 Acc: 89.64%
+----------------------------------------
+
+2025-03-25 16:20:56,297 - INFO - Epoch 91/310 started
+2025-03-25 16:23:35,701 - INFO - Epoch 91 training completed. Avg Loss: 2.4582, LR: 0.080607
+2025-03-25 16:23:39,272 - INFO - Validation completed - Loss: 2.1866, Top1: 66.10%, Top5: 89.02%
+2025-03-25 16:23:39,273 - INFO - Epoch 91 Summary: 
+Train Loss: 2.4582 | Val Loss: 2.1866
+Top1 Acc: 66.10% | Top5 Acc: 89.02%
+----------------------------------------
+
+2025-03-25 16:23:39,273 - INFO - Epoch 92/310 started
+2025-03-25 16:26:18,851 - INFO - Epoch 92 training completed. Avg Loss: 2.4598, LR: 0.080205
+2025-03-25 16:26:22,472 - INFO - Validation completed - Loss: 2.2036, Top1: 66.36%, Top5: 89.60%
+2025-03-25 16:26:22,472 - INFO - Epoch 92 Summary: 
+Train Loss: 2.4598 | Val Loss: 2.2036
+Top1 Acc: 66.36% | Top5 Acc: 89.60%
+----------------------------------------
+
+2025-03-25 16:26:22,473 - INFO - Epoch 93/310 started
+2025-03-25 16:29:02,176 - INFO - Epoch 93 training completed. Avg Loss: 2.4570, LR: 0.079800
+2025-03-25 16:29:06,005 - INFO - Validation completed - Loss: 2.2138, Top1: 65.54%, Top5: 89.44%
+2025-03-25 16:29:06,005 - INFO - Epoch 93 Summary: 
+Train Loss: 2.4570 | Val Loss: 2.2138
+Top1 Acc: 65.54% | Top5 Acc: 89.44%
+----------------------------------------
+
+2025-03-25 16:29:06,005 - INFO - Epoch 94/310 started
+2025-03-25 16:31:45,820 - INFO - Epoch 94 training completed. Avg Loss: 2.4498, LR: 0.079391
+2025-03-25 16:31:49,500 - INFO - Validation completed - Loss: 2.2367, Top1: 66.30%, Top5: 88.50%
+2025-03-25 16:31:49,501 - INFO - Epoch 94 Summary: 
+Train Loss: 2.4498 | Val Loss: 2.2367
+Top1 Acc: 66.30% | Top5 Acc: 88.50%
+----------------------------------------
+
+2025-03-25 16:31:49,501 - INFO - Epoch 95/310 started
+2025-03-25 16:34:29,303 - INFO - Epoch 95 training completed. Avg Loss: 2.4462, LR: 0.078980
+2025-03-25 16:34:33,120 - INFO - Validation completed - Loss: 2.1627, Top1: 67.76%, Top5: 90.00%
+2025-03-25 16:34:33,289 - INFO - New best model saved with Top1 Acc: 67.76%
+2025-03-25 16:34:33,289 - INFO - Epoch 95 Summary: 
+Train Loss: 2.4462 | Val Loss: 2.1627
+Top1 Acc: 67.76% | Top5 Acc: 90.00%
+----------------------------------------
+
+2025-03-25 16:34:33,289 - INFO - Epoch 96/310 started
+2025-03-25 16:37:12,605 - INFO - Epoch 96 training completed. Avg Loss: 2.4425, LR: 0.078566
+2025-03-25 16:37:16,113 - INFO - Validation completed - Loss: 2.1370, Top1: 68.48%, Top5: 90.58%
+2025-03-25 16:37:16,263 - INFO - New best model saved with Top1 Acc: 68.48%
+2025-03-25 16:37:16,263 - INFO - Epoch 96 Summary: 
+Train Loss: 2.4425 | Val Loss: 2.1370
+Top1 Acc: 68.48% | Top5 Acc: 90.58%
+----------------------------------------
+
+2025-03-25 16:37:16,263 - INFO - Epoch 97/310 started
+2025-03-25 16:39:55,801 - INFO - Epoch 97 training completed. Avg Loss: 2.4390, LR: 0.078148
+2025-03-25 16:39:59,400 - INFO - Validation completed - Loss: 2.2282, Top1: 65.12%, Top5: 88.70%
+2025-03-25 16:39:59,401 - INFO - Epoch 97 Summary: 
+Train Loss: 2.4390 | Val Loss: 2.2282
+Top1 Acc: 65.12% | Top5 Acc: 88.70%
+----------------------------------------
+
+2025-03-25 16:39:59,401 - INFO - Epoch 98/310 started
+2025-03-25 16:42:38,966 - INFO - Epoch 98 training completed. Avg Loss: 2.4416, LR: 0.077728
+2025-03-25 16:42:42,471 - INFO - Validation completed - Loss: 2.1773, Top1: 66.68%, Top5: 90.10%
+2025-03-25 16:42:42,471 - INFO - Epoch 98 Summary: 
+Train Loss: 2.4416 | Val Loss: 2.1773
+Top1 Acc: 66.68% | Top5 Acc: 90.10%
+----------------------------------------
+
+2025-03-25 16:42:42,471 - INFO - Epoch 99/310 started
+2025-03-25 16:45:22,407 - INFO - Epoch 99 training completed. Avg Loss: 2.4384, LR: 0.077305
+2025-03-25 16:45:25,945 - INFO - Validation completed - Loss: 2.1807, Top1: 66.94%, Top5: 89.48%
+2025-03-25 16:45:25,945 - INFO - Epoch 99 Summary: 
+Train Loss: 2.4384 | Val Loss: 2.1807
+Top1 Acc: 66.94% | Top5 Acc: 89.48%
+----------------------------------------
+
+2025-03-25 16:45:25,945 - INFO - Epoch 100/310 started
+2025-03-25 16:48:05,226 - INFO - Epoch 100 training completed. Avg Loss: 2.4288, LR: 0.076879
+2025-03-25 16:48:08,907 - INFO - Validation completed - Loss: 2.1632, Top1: 67.96%, Top5: 89.86%
+2025-03-25 16:48:08,908 - INFO - Epoch 100 Summary: 
+Train Loss: 2.4288 | Val Loss: 2.1632
+Top1 Acc: 67.96% | Top5 Acc: 89.86%
+----------------------------------------
+
+2025-03-25 16:48:08,908 - INFO - Epoch 101/310 started
+2025-03-25 16:50:48,327 - INFO - Epoch 101 training completed. Avg Loss: 2.4298, LR: 0.076451
+2025-03-25 16:50:51,908 - INFO - Validation completed - Loss: 2.1505, Top1: 68.04%, Top5: 90.18%
+2025-03-25 16:50:51,909 - INFO - Epoch 101 Summary: 
+Train Loss: 2.4298 | Val Loss: 2.1505
+Top1 Acc: 68.04% | Top5 Acc: 90.18%
+----------------------------------------
+
+2025-03-25 16:50:51,909 - INFO - Epoch 102/310 started
+2025-03-25 16:53:31,238 - INFO - Epoch 102 training completed. Avg Loss: 2.4307, LR: 0.076019
+2025-03-25 16:53:34,909 - INFO - Validation completed - Loss: 2.1501, Top1: 67.64%, Top5: 90.38%
+2025-03-25 16:53:34,910 - INFO - Epoch 102 Summary: 
+Train Loss: 2.4307 | Val Loss: 2.1501
+Top1 Acc: 67.64% | Top5 Acc: 90.38%
+----------------------------------------
+
+2025-03-25 16:53:34,910 - INFO - Epoch 103/310 started
+2025-03-25 16:56:14,340 - INFO - Epoch 103 training completed. Avg Loss: 2.4266, LR: 0.075585
+2025-03-25 16:56:17,798 - INFO - Validation completed - Loss: 2.1645, Top1: 67.12%, Top5: 89.82%
+2025-03-25 16:56:17,798 - INFO - Epoch 103 Summary: 
+Train Loss: 2.4266 | Val Loss: 2.1645
+Top1 Acc: 67.12% | Top5 Acc: 89.82%
+----------------------------------------
+
+2025-03-25 16:56:17,798 - INFO - Epoch 104/310 started
+2025-03-25 16:58:57,337 - INFO - Epoch 104 training completed. Avg Loss: 2.4217, LR: 0.075149
+2025-03-25 16:59:00,927 - INFO - Validation completed - Loss: 2.1682, Top1: 67.88%, Top5: 89.76%
+2025-03-25 16:59:00,928 - INFO - Epoch 104 Summary: 
+Train Loss: 2.4217 | Val Loss: 2.1682
+Top1 Acc: 67.88% | Top5 Acc: 89.76%
+----------------------------------------
+
+2025-03-25 16:59:00,928 - INFO - Epoch 105/310 started
+2025-03-25 17:01:40,169 - INFO - Epoch 105 training completed. Avg Loss: 2.4222, LR: 0.074709
+2025-03-25 17:01:43,779 - INFO - Validation completed - Loss: 2.1510, Top1: 67.44%, Top5: 90.00%
+2025-03-25 17:01:43,779 - INFO - Epoch 105 Summary: 
+Train Loss: 2.4222 | Val Loss: 2.1510
+Top1 Acc: 67.44% | Top5 Acc: 90.00%
+----------------------------------------
+
+2025-03-25 17:01:43,780 - INFO - Epoch 106/310 started
+2025-03-25 17:04:23,140 - INFO - Epoch 106 training completed. Avg Loss: 2.4197, LR: 0.074268
+2025-03-25 17:04:26,849 - INFO - Validation completed - Loss: 2.1149, Top1: 68.64%, Top5: 90.58%
+2025-03-25 17:04:27,012 - INFO - New best model saved with Top1 Acc: 68.64%
+2025-03-25 17:04:27,012 - INFO - Epoch 106 Summary: 
+Train Loss: 2.4197 | Val Loss: 2.1149
+Top1 Acc: 68.64% | Top5 Acc: 90.58%
+----------------------------------------
+
+2025-03-25 17:04:27,012 - INFO - Epoch 107/310 started
+2025-03-25 17:07:06,376 - INFO - Epoch 107 training completed. Avg Loss: 2.4143, LR: 0.073823
+2025-03-25 17:07:10,215 - INFO - Validation completed - Loss: 2.1016, Top1: 68.82%, Top5: 90.72%
+2025-03-25 17:07:10,372 - INFO - New best model saved with Top1 Acc: 68.82%
+2025-03-25 17:07:10,372 - INFO - Epoch 107 Summary: 
+Train Loss: 2.4143 | Val Loss: 2.1016
+Top1 Acc: 68.82% | Top5 Acc: 90.72%
+----------------------------------------
+
+2025-03-25 17:07:10,372 - INFO - Epoch 108/310 started
+2025-03-25 17:09:50,179 - INFO - Epoch 108 training completed. Avg Loss: 2.4091, LR: 0.073377
+2025-03-25 17:09:54,015 - INFO - Validation completed - Loss: 2.1077, Top1: 67.92%, Top5: 90.94%
+2025-03-25 17:09:54,015 - INFO - Epoch 108 Summary: 
+Train Loss: 2.4091 | Val Loss: 2.1077
+Top1 Acc: 67.92% | Top5 Acc: 90.94%
+----------------------------------------
+
+2025-03-25 17:09:54,015 - INFO - Epoch 109/310 started
+2025-03-25 17:12:33,336 - INFO - Epoch 109 training completed. Avg Loss: 2.4120, LR: 0.072928
+2025-03-25 17:12:37,298 - INFO - Validation completed - Loss: 2.1114, Top1: 69.22%, Top5: 91.04%
+2025-03-25 17:12:37,477 - INFO - New best model saved with Top1 Acc: 69.22%
+2025-03-25 17:12:37,477 - INFO - Epoch 109 Summary: 
+Train Loss: 2.4120 | Val Loss: 2.1114
+Top1 Acc: 69.22% | Top5 Acc: 91.04%
+----------------------------------------
+
+2025-03-25 17:12:37,477 - INFO - Epoch 110/310 started
+2025-03-25 17:15:16,965 - INFO - Epoch 110 training completed. Avg Loss: 2.4044, LR: 0.072476
+2025-03-25 17:15:20,716 - INFO - Validation completed - Loss: 2.1077, Top1: 69.52%, Top5: 91.28%
+2025-03-25 17:15:20,879 - INFO - New best model saved with Top1 Acc: 69.52%
+2025-03-25 17:15:20,879 - INFO - Epoch 110 Summary: 
+Train Loss: 2.4044 | Val Loss: 2.1077
+Top1 Acc: 69.52% | Top5 Acc: 91.28%
+----------------------------------------
+
+2025-03-25 17:15:20,880 - INFO - Epoch 111/310 started
+2025-03-25 17:18:00,460 - INFO - Epoch 111 training completed. Avg Loss: 2.4043, LR: 0.072023
+2025-03-25 17:18:04,272 - INFO - Validation completed - Loss: 2.1031, Top1: 68.80%, Top5: 91.14%
+2025-03-25 17:18:04,273 - INFO - Epoch 111 Summary: 
+Train Loss: 2.4043 | Val Loss: 2.1031
+Top1 Acc: 68.80% | Top5 Acc: 91.14%
+----------------------------------------
+
+2025-03-25 17:18:04,273 - INFO - Epoch 112/310 started
+2025-03-25 17:20:43,819 - INFO - Epoch 112 training completed. Avg Loss: 2.3976, LR: 0.071567
+2025-03-25 17:20:47,746 - INFO - Validation completed - Loss: 2.1034, Top1: 69.60%, Top5: 90.68%
+2025-03-25 17:20:47,906 - INFO - New best model saved with Top1 Acc: 69.60%
+2025-03-25 17:20:47,906 - INFO - Epoch 112 Summary: 
+Train Loss: 2.3976 | Val Loss: 2.1034
+Top1 Acc: 69.60% | Top5 Acc: 90.68%
+----------------------------------------
+
+2025-03-25 17:20:47,906 - INFO - Epoch 113/310 started
+2025-03-25 17:23:27,431 - INFO - Epoch 113 training completed. Avg Loss: 2.3971, LR: 0.071108
+2025-03-25 17:23:31,326 - INFO - Validation completed - Loss: 2.0711, Top1: 69.94%, Top5: 91.16%
+2025-03-25 17:23:31,500 - INFO - New best model saved with Top1 Acc: 69.94%
+2025-03-25 17:23:31,500 - INFO - Epoch 113 Summary: 
+Train Loss: 2.3971 | Val Loss: 2.0711
+Top1 Acc: 69.94% | Top5 Acc: 91.16%
+----------------------------------------
+
+2025-03-25 17:23:31,500 - INFO - Epoch 114/310 started
+2025-03-25 17:26:11,289 - INFO - Epoch 114 training completed. Avg Loss: 2.3910, LR: 0.070648
+2025-03-25 17:26:15,228 - INFO - Validation completed - Loss: 2.1181, Top1: 68.46%, Top5: 90.20%
+2025-03-25 17:26:15,229 - INFO - Epoch 114 Summary: 
+Train Loss: 2.3910 | Val Loss: 2.1181
+Top1 Acc: 68.46% | Top5 Acc: 90.20%
+----------------------------------------
+
+2025-03-25 17:26:15,229 - INFO - Epoch 115/310 started
+2025-03-25 17:28:54,969 - INFO - Epoch 115 training completed. Avg Loss: 2.3904, LR: 0.070185
+2025-03-25 17:28:58,751 - INFO - Validation completed - Loss: 2.1508, Top1: 67.78%, Top5: 89.74%
+2025-03-25 17:28:58,752 - INFO - Epoch 115 Summary: 
+Train Loss: 2.3904 | Val Loss: 2.1508
+Top1 Acc: 67.78% | Top5 Acc: 89.74%
+----------------------------------------
+
+2025-03-25 17:28:58,752 - INFO - Epoch 116/310 started
+2025-03-25 17:31:38,450 - INFO - Epoch 116 training completed. Avg Loss: 2.3866, LR: 0.069721
+2025-03-25 17:31:42,196 - INFO - Validation completed - Loss: 2.1534, Top1: 66.94%, Top5: 90.48%
+2025-03-25 17:31:42,197 - INFO - Epoch 116 Summary: 
+Train Loss: 2.3866 | Val Loss: 2.1534
+Top1 Acc: 66.94% | Top5 Acc: 90.48%
+----------------------------------------
+
+2025-03-25 17:31:42,197 - INFO - Epoch 117/310 started
+2025-03-25 17:34:21,644 - INFO - Epoch 117 training completed. Avg Loss: 2.3818, LR: 0.069254
+2025-03-25 17:34:25,222 - INFO - Validation completed - Loss: 2.1889, Top1: 67.54%, Top5: 89.44%
+2025-03-25 17:34:25,223 - INFO - Epoch 117 Summary: 
+Train Loss: 2.3818 | Val Loss: 2.1889
+Top1 Acc: 67.54% | Top5 Acc: 89.44%
+----------------------------------------
+
+2025-03-25 17:34:25,223 - INFO - Epoch 118/310 started
+2025-03-25 17:37:04,855 - INFO - Epoch 118 training completed. Avg Loss: 2.3840, LR: 0.068786
+2025-03-25 17:37:08,552 - INFO - Validation completed - Loss: 2.1040, Top1: 69.00%, Top5: 90.50%
+2025-03-25 17:37:08,552 - INFO - Epoch 118 Summary: 
+Train Loss: 2.3840 | Val Loss: 2.1040
+Top1 Acc: 69.00% | Top5 Acc: 90.50%
+----------------------------------------
+
+2025-03-25 17:37:08,552 - INFO - Epoch 119/310 started
+2025-03-25 17:39:48,208 - INFO - Epoch 119 training completed. Avg Loss: 2.3714, LR: 0.068315
+2025-03-25 17:39:51,952 - INFO - Validation completed - Loss: 2.1386, Top1: 67.66%, Top5: 90.22%
+2025-03-25 17:39:51,953 - INFO - Epoch 119 Summary: 
+Train Loss: 2.3714 | Val Loss: 2.1386
+Top1 Acc: 67.66% | Top5 Acc: 90.22%
+----------------------------------------
+
+2025-03-25 17:39:51,953 - INFO - Epoch 120/310 started
+2025-03-25 17:42:31,481 - INFO - Epoch 120 training completed. Avg Loss: 2.3728, LR: 0.067843
+2025-03-25 17:42:35,163 - INFO - Validation completed - Loss: 2.0987, Top1: 68.90%, Top5: 90.58%
+2025-03-25 17:42:35,163 - INFO - Epoch 120 Summary: 
+Train Loss: 2.3728 | Val Loss: 2.0987
+Top1 Acc: 68.90% | Top5 Acc: 90.58%
+----------------------------------------
+
+2025-03-25 17:42:35,164 - INFO - Epoch 121/310 started
+2025-03-25 17:45:14,633 - INFO - Epoch 121 training completed. Avg Loss: 2.3669, LR: 0.067369
+2025-03-25 17:45:18,286 - INFO - Validation completed - Loss: 2.1121, Top1: 68.54%, Top5: 90.32%
+2025-03-25 17:45:18,286 - INFO - Epoch 121 Summary: 
+Train Loss: 2.3669 | Val Loss: 2.1121
+Top1 Acc: 68.54% | Top5 Acc: 90.32%
+----------------------------------------
+
+2025-03-25 17:45:18,286 - INFO - Epoch 122/310 started
+2025-03-25 17:47:57,741 - INFO - Epoch 122 training completed. Avg Loss: 2.3682, LR: 0.066893
+2025-03-25 17:48:01,433 - INFO - Validation completed - Loss: 2.1257, Top1: 70.10%, Top5: 90.50%
+2025-03-25 17:48:01,585 - INFO - New best model saved with Top1 Acc: 70.10%
+2025-03-25 17:48:01,586 - INFO - Epoch 122 Summary: 
+Train Loss: 2.3682 | Val Loss: 2.1257
+Top1 Acc: 70.10% | Top5 Acc: 90.50%
+----------------------------------------
+
+2025-03-25 17:48:01,586 - INFO - Epoch 123/310 started
+2025-03-25 17:50:41,148 - INFO - Epoch 123 training completed. Avg Loss: 2.3641, LR: 0.066415
+2025-03-25 17:50:44,722 - INFO - Validation completed - Loss: 2.1031, Top1: 68.94%, Top5: 90.50%
+2025-03-25 17:50:44,722 - INFO - Epoch 123 Summary: 
+Train Loss: 2.3641 | Val Loss: 2.1031
+Top1 Acc: 68.94% | Top5 Acc: 90.50%
+----------------------------------------
+
+2025-03-25 17:50:44,723 - INFO - Epoch 124/310 started
+2025-03-25 17:53:24,138 - INFO - Epoch 124 training completed. Avg Loss: 2.3637, LR: 0.065935
+2025-03-25 17:53:27,719 - INFO - Validation completed - Loss: 2.0902, Top1: 69.92%, Top5: 90.30%
+2025-03-25 17:53:27,720 - INFO - Epoch 124 Summary: 
+Train Loss: 2.3637 | Val Loss: 2.0902
+Top1 Acc: 69.92% | Top5 Acc: 90.30%
+----------------------------------------
+
+2025-03-25 17:53:27,720 - INFO - Epoch 125/310 started
+2025-03-25 17:56:07,405 - INFO - Epoch 125 training completed. Avg Loss: 2.3544, LR: 0.065454
+2025-03-25 17:56:10,885 - INFO - Validation completed - Loss: 2.0870, Top1: 69.66%, Top5: 90.74%
+2025-03-25 17:56:10,885 - INFO - Epoch 125 Summary: 
+Train Loss: 2.3544 | Val Loss: 2.0870
+Top1 Acc: 69.66% | Top5 Acc: 90.74%
+----------------------------------------
+
+2025-03-25 17:56:10,885 - INFO - Epoch 126/310 started
+2025-03-25 17:58:50,348 - INFO - Epoch 126 training completed. Avg Loss: 2.3551, LR: 0.064972
+2025-03-25 17:58:53,971 - INFO - Validation completed - Loss: 2.0816, Top1: 70.68%, Top5: 91.46%
+2025-03-25 17:58:54,129 - INFO - New best model saved with Top1 Acc: 70.68%
+2025-03-25 17:58:54,129 - INFO - Epoch 126 Summary: 
+Train Loss: 2.3551 | Val Loss: 2.0816
+Top1 Acc: 70.68% | Top5 Acc: 91.46%
+----------------------------------------
+
+2025-03-25 17:58:54,129 - INFO - Epoch 127/310 started
+2025-03-25 18:01:33,618 - INFO - Epoch 127 training completed. Avg Loss: 2.3557, LR: 0.064487
+2025-03-25 18:01:37,131 - INFO - Validation completed - Loss: 2.0967, Top1: 69.22%, Top5: 91.00%
+2025-03-25 18:01:37,132 - INFO - Epoch 127 Summary: 
+Train Loss: 2.3557 | Val Loss: 2.0967
+Top1 Acc: 69.22% | Top5 Acc: 91.00%
+----------------------------------------
+
+2025-03-25 18:01:37,132 - INFO - Epoch 128/310 started
+2025-03-25 18:04:16,501 - INFO - Epoch 128 training completed. Avg Loss: 2.3515, LR: 0.064002
+2025-03-25 18:04:20,208 - INFO - Validation completed - Loss: 2.1110, Top1: 69.08%, Top5: 90.40%
+2025-03-25 18:04:20,208 - INFO - Epoch 128 Summary: 
+Train Loss: 2.3515 | Val Loss: 2.1110
+Top1 Acc: 69.08% | Top5 Acc: 90.40%
+----------------------------------------
+
+2025-03-25 18:04:20,208 - INFO - Epoch 129/310 started
+2025-03-25 18:06:59,909 - INFO - Epoch 129 training completed. Avg Loss: 2.3525, LR: 0.063515
+2025-03-25 18:07:03,506 - INFO - Validation completed - Loss: 2.0607, Top1: 70.58%, Top5: 91.30%
+2025-03-25 18:07:03,507 - INFO - Epoch 129 Summary: 
+Train Loss: 2.3525 | Val Loss: 2.0607
+Top1 Acc: 70.58% | Top5 Acc: 91.30%
+----------------------------------------
+
+2025-03-25 18:07:03,507 - INFO - Epoch 130/310 started
+2025-03-25 18:09:42,913 - INFO - Epoch 130 training completed. Avg Loss: 2.3432, LR: 0.063026
+2025-03-25 18:09:46,524 - INFO - Validation completed - Loss: 2.1185, Top1: 68.68%, Top5: 90.34%
+2025-03-25 18:09:46,525 - INFO - Epoch 130 Summary: 
+Train Loss: 2.3432 | Val Loss: 2.1185
+Top1 Acc: 68.68% | Top5 Acc: 90.34%
+----------------------------------------
+
+2025-03-25 18:09:46,525 - INFO - Epoch 131/310 started
+2025-03-25 18:12:25,916 - INFO - Epoch 131 training completed. Avg Loss: 2.3443, LR: 0.062536
+2025-03-25 18:12:29,398 - INFO - Validation completed - Loss: 2.1504, Top1: 68.10%, Top5: 89.84%
+2025-03-25 18:12:29,398 - INFO - Epoch 131 Summary: 
+Train Loss: 2.3443 | Val Loss: 2.1504
+Top1 Acc: 68.10% | Top5 Acc: 89.84%
+----------------------------------------
+
+2025-03-25 18:12:29,398 - INFO - Epoch 132/310 started
+2025-03-25 18:15:08,851 - INFO - Epoch 132 training completed. Avg Loss: 2.3418, LR: 0.062045
+2025-03-25 18:15:12,457 - INFO - Validation completed - Loss: 2.0482, Top1: 70.58%, Top5: 91.02%
+2025-03-25 18:15:12,458 - INFO - Epoch 132 Summary: 
+Train Loss: 2.3418 | Val Loss: 2.0482
+Top1 Acc: 70.58% | Top5 Acc: 91.02%
+----------------------------------------
+
+2025-03-25 18:15:12,458 - INFO - Epoch 133/310 started
+2025-03-25 18:17:51,886 - INFO - Epoch 133 training completed. Avg Loss: 2.3365, LR: 0.061553
+2025-03-25 18:17:55,526 - INFO - Validation completed - Loss: 2.0613, Top1: 70.12%, Top5: 91.14%
+2025-03-25 18:17:55,527 - INFO - Epoch 133 Summary: 
+Train Loss: 2.3365 | Val Loss: 2.0613
+Top1 Acc: 70.12% | Top5 Acc: 91.14%
+----------------------------------------
+
+2025-03-25 18:17:55,527 - INFO - Epoch 134/310 started
+2025-03-25 18:20:35,133 - INFO - Epoch 134 training completed. Avg Loss: 2.3333, LR: 0.061059
+2025-03-25 18:20:38,706 - INFO - Validation completed - Loss: 2.0770, Top1: 70.26%, Top5: 90.98%
+2025-03-25 18:20:38,706 - INFO - Epoch 134 Summary: 
+Train Loss: 2.3333 | Val Loss: 2.0770
+Top1 Acc: 70.26% | Top5 Acc: 90.98%
+----------------------------------------
+
+2025-03-25 18:20:38,707 - INFO - Epoch 135/310 started
+2025-03-25 18:23:21,098 - INFO - Epoch 135 training completed. Avg Loss: 2.3331, LR: 0.060565
+2025-03-25 18:23:24,685 - INFO - Validation completed - Loss: 2.0757, Top1: 69.46%, Top5: 91.00%
+2025-03-25 18:23:24,686 - INFO - Epoch 135 Summary: 
+Train Loss: 2.3331 | Val Loss: 2.0757
+Top1 Acc: 69.46% | Top5 Acc: 91.00%
+----------------------------------------
+
+2025-03-25 18:23:24,686 - INFO - Epoch 136/310 started
+2025-03-25 18:26:04,203 - INFO - Epoch 136 training completed. Avg Loss: 2.3246, LR: 0.060069
+2025-03-25 18:26:07,695 - INFO - Validation completed - Loss: 2.0909, Top1: 69.38%, Top5: 91.12%
+2025-03-25 18:26:07,696 - INFO - Epoch 136 Summary: 
+Train Loss: 2.3246 | Val Loss: 2.0909
+Top1 Acc: 69.38% | Top5 Acc: 91.12%
+----------------------------------------
+
+2025-03-25 18:26:07,696 - INFO - Epoch 137/310 started
+2025-03-25 18:28:47,178 - INFO - Epoch 137 training completed. Avg Loss: 2.3270, LR: 0.059572
+2025-03-25 18:28:50,679 - INFO - Validation completed - Loss: 2.0363, Top1: 71.28%, Top5: 91.52%
+2025-03-25 18:28:50,831 - INFO - New best model saved with Top1 Acc: 71.28%
+2025-03-25 18:28:50,831 - INFO - Epoch 137 Summary: 
+Train Loss: 2.3270 | Val Loss: 2.0363
+Top1 Acc: 71.28% | Top5 Acc: 91.52%
+----------------------------------------
+
+2025-03-25 18:28:50,831 - INFO - Epoch 138/310 started
+2025-03-25 18:31:30,302 - INFO - Epoch 138 training completed. Avg Loss: 2.3197, LR: 0.059074
+2025-03-25 18:31:33,816 - INFO - Validation completed - Loss: 2.1086, Top1: 68.94%, Top5: 90.54%
+2025-03-25 18:31:33,817 - INFO - Epoch 138 Summary: 
+Train Loss: 2.3197 | Val Loss: 2.1086
+Top1 Acc: 68.94% | Top5 Acc: 90.54%
+----------------------------------------
+
+2025-03-25 18:31:33,817 - INFO - Epoch 139/310 started
+2025-03-25 18:34:13,286 - INFO - Epoch 139 training completed. Avg Loss: 2.3161, LR: 0.058576
+2025-03-25 18:34:16,916 - INFO - Validation completed - Loss: 2.0591, Top1: 70.64%, Top5: 91.62%
+2025-03-25 18:34:16,916 - INFO - Epoch 139 Summary: 
+Train Loss: 2.3161 | Val Loss: 2.0591
+Top1 Acc: 70.64% | Top5 Acc: 91.62%
+----------------------------------------
+
+2025-03-25 18:34:16,917 - INFO - Epoch 140/310 started
+2025-03-25 18:36:56,336 - INFO - Epoch 140 training completed. Avg Loss: 2.3126, LR: 0.058076
+2025-03-25 18:37:00,007 - INFO - Validation completed - Loss: 2.0539, Top1: 70.94%, Top5: 91.96%
+2025-03-25 18:37:00,008 - INFO - Epoch 140 Summary: 
+Train Loss: 2.3126 | Val Loss: 2.0539
+Top1 Acc: 70.94% | Top5 Acc: 91.96%
+----------------------------------------
+
+2025-03-25 18:37:00,008 - INFO - Epoch 141/310 started
+2025-03-25 18:39:39,514 - INFO - Epoch 141 training completed. Avg Loss: 2.3089, LR: 0.057576
+2025-03-25 18:39:43,052 - INFO - Validation completed - Loss: 2.0549, Top1: 70.76%, Top5: 91.08%
+2025-03-25 18:39:43,053 - INFO - Epoch 141 Summary: 
+Train Loss: 2.3089 | Val Loss: 2.0549
+Top1 Acc: 70.76% | Top5 Acc: 91.08%
+----------------------------------------
+
+2025-03-25 18:39:43,053 - INFO - Epoch 142/310 started
+2025-03-25 18:42:22,548 - INFO - Epoch 142 training completed. Avg Loss: 2.3086, LR: 0.057074
+2025-03-25 18:42:26,159 - INFO - Validation completed - Loss: 2.0162, Top1: 72.72%, Top5: 92.32%
+2025-03-25 18:42:26,327 - INFO - New best model saved with Top1 Acc: 72.72%
+2025-03-25 18:42:26,328 - INFO - Epoch 142 Summary: 
+Train Loss: 2.3086 | Val Loss: 2.0162
+Top1 Acc: 72.72% | Top5 Acc: 92.32%
+----------------------------------------
+
+2025-03-25 18:42:26,328 - INFO - Epoch 143/310 started
+2025-03-25 18:45:05,754 - INFO - Epoch 143 training completed. Avg Loss: 2.3061, LR: 0.056573
+2025-03-25 18:45:09,300 - INFO - Validation completed - Loss: 2.0373, Top1: 71.52%, Top5: 91.28%
+2025-03-25 18:45:09,301 - INFO - Epoch 143 Summary: 
+Train Loss: 2.3061 | Val Loss: 2.0373
+Top1 Acc: 71.52% | Top5 Acc: 91.28%
+----------------------------------------
+
+2025-03-25 18:45:09,301 - INFO - Epoch 144/310 started
+2025-03-25 18:47:48,817 - INFO - Epoch 144 training completed. Avg Loss: 2.3007, LR: 0.056070
+2025-03-25 18:47:52,391 - INFO - Validation completed - Loss: 2.0079, Top1: 72.06%, Top5: 92.70%
+2025-03-25 18:47:52,391 - INFO - Epoch 144 Summary: 
+Train Loss: 2.3007 | Val Loss: 2.0079
+Top1 Acc: 72.06% | Top5 Acc: 92.70%
+----------------------------------------
+
+2025-03-25 18:47:52,391 - INFO - Epoch 145/310 started
+2025-03-25 18:50:31,951 - INFO - Epoch 145 training completed. Avg Loss: 2.2970, LR: 0.055567
+2025-03-25 18:50:35,357 - INFO - Validation completed - Loss: 2.0092, Top1: 71.94%, Top5: 91.90%
+2025-03-25 18:50:35,357 - INFO - Epoch 145 Summary: 
+Train Loss: 2.2970 | Val Loss: 2.0092
+Top1 Acc: 71.94% | Top5 Acc: 91.90%
+----------------------------------------
+
+2025-03-25 18:50:35,358 - INFO - Epoch 146/310 started
+2025-03-25 18:53:15,000 - INFO - Epoch 146 training completed. Avg Loss: 2.3012, LR: 0.055063
+2025-03-25 18:53:18,675 - INFO - Validation completed - Loss: 1.9983, Top1: 72.58%, Top5: 92.32%
+2025-03-25 18:53:18,675 - INFO - Epoch 146 Summary: 
+Train Loss: 2.3012 | Val Loss: 1.9983
+Top1 Acc: 72.58% | Top5 Acc: 92.32%
+----------------------------------------
+
+2025-03-25 18:53:18,675 - INFO - Epoch 147/310 started
+2025-03-25 18:55:58,165 - INFO - Epoch 147 training completed. Avg Loss: 2.2922, LR: 0.054559
+2025-03-25 18:56:01,817 - INFO - Validation completed - Loss: 2.0518, Top1: 70.86%, Top5: 91.32%
+2025-03-25 18:56:01,817 - INFO - Epoch 147 Summary: 
+Train Loss: 2.2922 | Val Loss: 2.0518
+Top1 Acc: 70.86% | Top5 Acc: 91.32%
+----------------------------------------
+
+2025-03-25 18:56:01,818 - INFO - Epoch 148/310 started
+2025-03-25 18:58:41,246 - INFO - Epoch 148 training completed. Avg Loss: 2.2914, LR: 0.054054
+2025-03-25 18:58:44,867 - INFO - Validation completed - Loss: 1.9883, Top1: 73.22%, Top5: 92.24%
+2025-03-25 18:58:45,037 - INFO - New best model saved with Top1 Acc: 73.22%
+2025-03-25 18:58:45,037 - INFO - Epoch 148 Summary: 
+Train Loss: 2.2914 | Val Loss: 1.9883
+Top1 Acc: 73.22% | Top5 Acc: 92.24%
+----------------------------------------
+
+2025-03-25 18:58:45,037 - INFO - Epoch 149/310 started
+2025-03-25 19:01:24,538 - INFO - Epoch 149 training completed. Avg Loss: 2.2877, LR: 0.053549
+2025-03-25 19:01:28,172 - INFO - Validation completed - Loss: 2.0381, Top1: 70.90%, Top5: 91.88%
+2025-03-25 19:01:28,172 - INFO - Epoch 149 Summary: 
+Train Loss: 2.2877 | Val Loss: 2.0381
+Top1 Acc: 70.90% | Top5 Acc: 91.88%
+----------------------------------------
+
+2025-03-25 19:01:28,172 - INFO - Epoch 150/310 started
+2025-03-25 19:04:07,521 - INFO - Epoch 150 training completed. Avg Loss: 2.2851, LR: 0.053043
+2025-03-25 19:04:11,124 - INFO - Validation completed - Loss: 2.0269, Top1: 71.76%, Top5: 91.66%
+2025-03-25 19:04:11,125 - INFO - Epoch 150 Summary: 
+Train Loss: 2.2851 | Val Loss: 2.0269
+Top1 Acc: 71.76% | Top5 Acc: 91.66%
+----------------------------------------
+
+2025-03-25 19:04:12,12500 - INFO - Epoch 151/310 started
+2025-03-25 19:06:50,70400 - INFO - Epoch 151 training completed. Avg Loss: 2.2786, LR: 0.052537
+2025-03-25 19:06:54,22233 - INFO - Validation completed - Loss: 1.9629, Top1: 73.76%, Top5: 92.64%
+2025-03-25 19:06:54,37833 - INFO - New best model saved with Top1 Acc: 73.76%
+2025-03-25 19:06:54,37833 - INFO - Epoch 151 Summary:
+Train Loss: 2.2786 | Val Loss: 1.9629
+Top1 Acc: 73.76% | Top5 Acc: 92.64%
+----------------------------------------
+
+2025-03-25 19:06:55,37833 - INFO - Epoch 152/310 started
+2025-03-25 19:09:33,95733 - INFO - Epoch 152 training completed. Avg Loss: 2.2748, LR: 0.052031
+2025-03-25 19:09:37,47566 - INFO - Validation completed - Loss: 1.9894, Top1: 73.40%, Top5: 92.24%
+2025-03-25 19:09:37,47566 - INFO - Epoch 152 Summary:
+Train Loss: 2.2748 | Val Loss: 1.9894
+Top1 Acc: 73.40% | Top5 Acc: 92.24%
+----------------------------------------
+
+2025-03-25 19:09:38,47566 - INFO - Epoch 153/310 started
+2025-03-25 19:12:17,05466 - INFO - Epoch 153 training completed. Avg Loss: 2.2664, LR: 0.051525
+2025-03-25 19:12:20,57299 - INFO - Validation completed - Loss: 1.9460, Top1: 74.62%, Top5: 92.74%
+2025-03-25 19:12:20,74699 - INFO - New best model saved with Top1 Acc: 74.62%
+2025-03-25 19:12:20,74799 - INFO - Epoch 153 Summary:
+Train Loss: 2.2664 | Val Loss: 1.9460
+Top1 Acc: 74.62% | Top5 Acc: 92.74%
+----------------------------------------
+
+2025-03-25 19:12:21,74799 - INFO - Epoch 154/310 started
+2025-03-25 19:15:00,32699 - INFO - Epoch 154 training completed. Avg Loss: 2.2664, LR: 0.051018
+2025-03-25 19:15:03,84533 - INFO - Validation completed - Loss: 1.9242, Top1: 75.00%, Top5: 93.22%
+2025-03-25 19:15:04,00633 - INFO - New best model saved with Top1 Acc: 75.00%
+2025-03-25 19:15:04,00633 - INFO - Epoch 154 Summary:
+Train Loss: 2.2664 | Val Loss: 1.9242
+Top1 Acc: 75.00% | Top5 Acc: 93.22%
+----------------------------------------
+
+2025-03-25 19:15:05,00633 - INFO - Epoch 155/310 started
+2025-03-25 19:17:43,58533 - INFO - Epoch 155 training completed. Avg Loss: 2.2556, LR: 0.050512
+2025-03-25 19:17:47,10366 - INFO - Validation completed - Loss: 1.9415, Top1: 74.72%, Top5: 92.96%
+2025-03-25 19:17:47,10366 - INFO - Epoch 155 Summary:
+Train Loss: 2.2556 | Val Loss: 1.9415
+Top1 Acc: 74.72% | Top5 Acc: 92.96%
+----------------------------------------
+
+2025-03-25 19:17:48,10366 - INFO - Epoch 156/310 started
+2025-03-25 19:20:26,68266 - INFO - Epoch 156 training completed. Avg Loss: 2.2496, LR: 0.050005
+2025-03-25 19:20:30,20099 - INFO - Validation completed - Loss: 2.0091, Top1: 73.32%, Top5: 92.40%
+2025-03-25 19:20:30,20099 - INFO - Epoch 156 Summary:
+Train Loss: 2.2496 | Val Loss: 2.0091
+Top1 Acc: 73.32% | Top5 Acc: 92.40%
+----------------------------------------
+
+2025-03-25 19:20:31,20099 - INFO - Epoch 157/310 started
+2025-03-25 19:23:09,77999 - INFO - Epoch 157 training completed. Avg Loss: 2.2474, LR: 0.049498
+2025-03-25 19:23:13,29833 - INFO - Validation completed - Loss: 1.9487, Top1: 73.72%, Top5: 92.66%
+2025-03-25 19:23:13,29833 - INFO - Epoch 157 Summary:
+Train Loss: 2.2474 | Val Loss: 1.9487
+Top1 Acc: 73.72% | Top5 Acc: 92.66%
+----------------------------------------
+
+2025-03-25 19:23:14,29833 - INFO - Epoch 158/310 started
+2025-03-25 19:25:52,87733 - INFO - Epoch 158 training completed. Avg Loss: 2.2464, LR: 0.048992
+2025-03-25 19:25:56,39566 - INFO - Validation completed - Loss: 1.9886, Top1: 73.08%, Top5: 91.92%
+2025-03-25 19:25:56,39666 - INFO - Epoch 158 Summary:
+Train Loss: 2.2464 | Val Loss: 1.9886
+Top1 Acc: 73.08% | Top5 Acc: 91.92%
+----------------------------------------
+
+2025-03-25 19:25:57,39666 - INFO - Epoch 159/310 started
+2025-03-25 19:28:35,97566 - INFO - Epoch 159 training completed. Avg Loss: 2.2451, LR: 0.048485
+2025-03-25 19:28:39,49399 - INFO - Validation completed - Loss: 1.9581, Top1: 75.00%, Top5: 93.10%
+2025-03-25 19:28:39,49499 - INFO - Epoch 159 Summary:
+Train Loss: 2.2451 | Val Loss: 1.9581
+Top1 Acc: 75.00% | Top5 Acc: 93.10%
+----------------------------------------
+
+2025-03-25 19:28:40,49499 - INFO - Epoch 160/310 started
+2025-03-25 19:31:19,07399 - INFO - Epoch 160 training completed. Avg Loss: 2.2395, LR: 0.047979
+2025-03-25 19:31:22,59233 - INFO - Validation completed - Loss: 1.9491, Top1: 73.76%, Top5: 92.98%
+2025-03-25 19:31:22,59333 - INFO - Epoch 160 Summary:
+Train Loss: 2.2395 | Val Loss: 1.9491
+Top1 Acc: 73.76% | Top5 Acc: 92.98%
+----------------------------------------
+
+2025-03-25 19:31:23,59333 - INFO - Epoch 161/310 started
+2025-03-25 19:34:02,17233 - INFO - Epoch 161 training completed. Avg Loss: 2.2366, LR: 0.047473
+2025-03-25 19:34:05,69066 - INFO - Validation completed - Loss: 1.9440, Top1: 74.46%, Top5: 93.00%
+2025-03-25 19:34:05,69066 - INFO - Epoch 161 Summary:
+Train Loss: 2.2366 | Val Loss: 1.9440
+Top1 Acc: 74.46% | Top5 Acc: 93.00%
+----------------------------------------
+
+2025-03-25 19:34:06,69066 - INFO - Epoch 162/310 started
+2025-03-25 19:36:45,26966 - INFO - Epoch 162 training completed. Avg Loss: 2.2273, LR: 0.046967
+2025-03-25 19:36:48,78799 - INFO - Validation completed - Loss: 1.9294, Top1: 74.60%, Top5: 93.26%
+2025-03-25 19:36:48,78799 - INFO - Epoch 162 Summary:
+Train Loss: 2.2273 | Val Loss: 1.9294
+Top1 Acc: 74.60% | Top5 Acc: 93.26%
+----------------------------------------
+
+2025-03-25 19:36:49,78799 - INFO - Epoch 163/310 started
+2025-03-25 19:39:28,36699 - INFO - Epoch 163 training completed. Avg Loss: 2.2268, LR: 0.046461
+2025-03-25 19:39:31,88532 - INFO - Validation completed - Loss: 1.9078, Top1: 75.48%, Top5: 93.34%
+2025-03-25 19:39:32,03732 - INFO - New best model saved with Top1 Acc: 75.48%
+2025-03-25 19:39:32,03732 - INFO - Epoch 163 Summary:
+Train Loss: 2.2268 | Val Loss: 1.9078
+Top1 Acc: 75.48% | Top5 Acc: 93.34%
+----------------------------------------
+
+2025-03-25 19:39:33,03732 - INFO - Epoch 164/310 started
+2025-03-25 19:42:11,61632 - INFO - Epoch 164 training completed. Avg Loss: 2.2235, LR: 0.045956
+2025-03-25 19:42:15,13466 - INFO - Validation completed - Loss: 1.9397, Top1: 73.94%, Top5: 92.70%
+2025-03-25 19:42:15,13466 - INFO - Epoch 164 Summary:
+Train Loss: 2.2235 | Val Loss: 1.9397
+Top1 Acc: 73.94% | Top5 Acc: 92.70%
+----------------------------------------
+
+2025-03-25 19:42:16,13466 - INFO - Epoch 165/310 started
+2025-03-25 19:44:54,71366 - INFO - Epoch 165 training completed. Avg Loss: 2.2218, LR: 0.045451
+2025-03-25 19:44:58,23199 - INFO - Validation completed - Loss: 1.9546, Top1: 74.00%, Top5: 93.14%
+2025-03-25 19:44:58,23299 - INFO - Epoch 165 Summary:
+Train Loss: 2.2218 | Val Loss: 1.9546
+Top1 Acc: 74.00% | Top5 Acc: 93.14%
+----------------------------------------
+
+2025-03-25 19:44:59,23299 - INFO - Epoch 166/310 started
+2025-03-25 19:47:37,81199 - INFO - Epoch 166 training completed. Avg Loss: 2.2127, LR: 0.044947
+2025-03-25 19:47:41,33032 - INFO - Validation completed - Loss: 1.9689, Top1: 73.46%, Top5: 92.60%
+2025-03-25 19:47:41,33032 - INFO - Epoch 166 Summary:
+Train Loss: 2.2127 | Val Loss: 1.9689
+Top1 Acc: 73.46% | Top5 Acc: 92.60%
+----------------------------------------
+
+2025-03-25 19:47:42,33032 - INFO - Epoch 167/310 started
+2025-03-25 19:50:20,90932 - INFO - Epoch 167 training completed. Avg Loss: 2.2077, LR: 0.044443
+2025-03-25 19:50:24,42766 - INFO - Validation completed - Loss: 1.9439, Top1: 74.10%, Top5: 93.08%
+2025-03-25 19:50:24,42866 - INFO - Epoch 167 Summary:
+Train Loss: 2.2077 | Val Loss: 1.9439
+Top1 Acc: 74.10% | Top5 Acc: 93.08%
+----------------------------------------
+
+2025-03-25 19:50:25,42866 - INFO - Epoch 168/310 started
+2025-03-25 19:53:04,00766 - INFO - Epoch 168 training completed. Avg Loss: 2.2030, LR: 0.043940
+2025-03-25 19:53:07,52599 - INFO - Validation completed - Loss: 1.9137, Top1: 75.58%, Top5: 93.14%
+2025-03-25 19:53:07,68399 - INFO - New best model saved with Top1 Acc: 75.58%
+2025-03-25 19:53:07,68399 - INFO - Epoch 168 Summary:
+Train Loss: 2.2030 | Val Loss: 1.9137
+Top1 Acc: 75.58% | Top5 Acc: 93.14%
+----------------------------------------
+
+2025-03-25 19:53:08,68399 - INFO - Epoch 169/310 started
+2025-03-25 19:55:47,26299 - INFO - Epoch 169 training completed. Avg Loss: 2.1921, LR: 0.043437
+2025-03-25 19:55:50,78132 - INFO - Validation completed - Loss: 1.9152, Top1: 75.34%, Top5: 93.36%
+2025-03-25 19:55:50,78232 - INFO - Epoch 169 Summary:
+Train Loss: 2.1921 | Val Loss: 1.9152
+Top1 Acc: 75.34% | Top5 Acc: 93.36%
+----------------------------------------
+
+2025-03-25 19:55:51,78232 - INFO - Epoch 170/310 started
+2025-03-25 19:58:30,36132 - INFO - Epoch 170 training completed. Avg Loss: 2.1854, LR: 0.042936
+2025-03-25 19:58:33,87966 - INFO - Validation completed - Loss: 1.8992, Top1: 74.80%, Top5: 93.34%
+2025-03-25 19:58:33,88066 - INFO - Epoch 170 Summary:
+Train Loss: 2.1854 | Val Loss: 1.8992
+Top1 Acc: 74.80% | Top5 Acc: 93.34%
+----------------------------------------
+
+2025-03-25 19:58:34,88066 - INFO - Epoch 171/310 started
+2025-03-25 20:01:13,45966 - INFO - Epoch 171 training completed. Avg Loss: 2.1807, LR: 0.042434
+2025-03-25 20:01:16,97799 - INFO - Validation completed - Loss: 1.8969, Top1: 76.20%, Top5: 93.16%
+2025-03-25 20:01:17,13599 - INFO - New best model saved with Top1 Acc: 76.20%
+2025-03-25 20:01:17,13599 - INFO - Epoch 171 Summary:
+Train Loss: 2.1807 | Val Loss: 1.8969
+Top1 Acc: 76.20% | Top5 Acc: 93.16%
+----------------------------------------
+
+2025-03-25 20:01:18,13599 - INFO - Epoch 172/310 started
+2025-03-25 20:03:56,71499 - INFO - Epoch 172 training completed. Avg Loss: 2.1708, LR: 0.041934
+2025-03-25 20:04:00,23332 - INFO - Validation completed - Loss: 1.9045, Top1: 75.22%, Top5: 93.32%
+2025-03-25 20:04:00,23432 - INFO - Epoch 172 Summary:
+Train Loss: 2.1708 | Val Loss: 1.9045
+Top1 Acc: 75.22% | Top5 Acc: 93.32%
+----------------------------------------
+
+2025-03-25 20:04:01,23432 - INFO - Epoch 173/310 started
+2025-03-25 20:06:39,81332 - INFO - Epoch 173 training completed. Avg Loss: 2.1619, LR: 0.041434
+2025-03-25 20:06:43,33165 - INFO - Validation completed - Loss: 1.9262, Top1: 75.46%, Top5: 93.00%
+2025-03-25 20:06:43,33265 - INFO - Epoch 173 Summary:
+Train Loss: 2.1619 | Val Loss: 1.9262
+Top1 Acc: 75.46% | Top5 Acc: 93.00%
+----------------------------------------
+
+2025-03-25 20:06:44,33265 - INFO - Epoch 174/310 started
+2025-03-25 20:09:22,91165 - INFO - Epoch 174 training completed. Avg Loss: 2.1599, LR: 0.040936
+2025-03-25 20:09:26,42999 - INFO - Validation completed - Loss: 1.8917, Top1: 75.86%, Top5: 93.36%
+2025-03-25 20:09:26,42999 - INFO - Epoch 174 Summary:
+Train Loss: 2.1599 | Val Loss: 1.8917
+Top1 Acc: 75.86% | Top5 Acc: 93.36%
+----------------------------------------
+
+2025-03-25 20:09:27,42999 - INFO - Epoch 175/310 started
+2025-03-25 20:12:06,00899 - INFO - Epoch 175 training completed. Avg Loss: 2.1518, LR: 0.040438
+2025-03-25 20:12:09,52732 - INFO - Validation completed - Loss: 1.8863, Top1: 75.70%, Top5: 93.88%
+2025-03-25 20:12:09,52732 - INFO - Epoch 175 Summary:
+Train Loss: 2.1518 | Val Loss: 1.8863
+Top1 Acc: 75.70% | Top5 Acc: 93.88%
+----------------------------------------
+
+2025-03-25 20:12:10,52732 - INFO - Epoch 176/310 started
+2025-03-25 20:14:49,10632 - INFO - Epoch 176 training completed. Avg Loss: 2.1478, LR: 0.039941
+2025-03-25 20:14:52,62465 - INFO - Validation completed - Loss: 1.8938, Top1: 75.68%, Top5: 93.24%
+2025-03-25 20:14:52,62565 - INFO - Epoch 176 Summary:
+Train Loss: 2.1478 | Val Loss: 1.8938
+Top1 Acc: 75.68% | Top5 Acc: 93.24%
+----------------------------------------
+
+2025-03-25 20:14:53,62565 - INFO - Epoch 177/310 started
+2025-03-25 20:17:32,20465 - INFO - Epoch 177 training completed. Avg Loss: 2.1400, LR: 0.039445
+2025-03-25 20:17:35,72299 - INFO - Validation completed - Loss: 1.9220, Top1: 74.64%, Top5: 93.42%
+2025-03-25 20:17:35,72399 - INFO - Epoch 177 Summary:
+Train Loss: 2.1400 | Val Loss: 1.9220
+Top1 Acc: 74.64% | Top5 Acc: 93.42%
+----------------------------------------
+
+2025-03-25 20:17:36,72399 - INFO - Epoch 178/310 started
+2025-03-25 20:20:15,30299 - INFO - Epoch 178 training completed. Avg Loss: 2.1376, LR: 0.038951
+2025-03-25 20:20:18,82132 - INFO - Validation completed - Loss: 1.8774, Top1: 76.24%, Top5: 93.54%
+2025-03-25 20:20:18,96132 - INFO - New best model saved with Top1 Acc: 76.24%
+2025-03-25 20:20:18,96132 - INFO - Epoch 178 Summary:
+Train Loss: 2.1376 | Val Loss: 1.8774
+Top1 Acc: 76.24% | Top5 Acc: 93.54%
+----------------------------------------
+
+2025-03-25 20:20:19,96132 - INFO - Epoch 179/310 started
+2025-03-25 20:22:58,54032 - INFO - Epoch 179 training completed. Avg Loss: 2.1256, LR: 0.038457
+2025-03-25 20:23:02,05865 - INFO - Validation completed - Loss: 1.8866, Top1: 75.90%, Top5: 93.60%
+2025-03-25 20:23:02,05965 - INFO - Epoch 179 Summary: 
+Train Loss: 2.1256 | Val Loss: 1.8866
+Top1 Acc: 75.90% | Top5 Acc: 93.60%
+----------------------------------------
+
+2025-03-25 20:23:03,05965 - INFO - Epoch 180/310 started
+2025-03-25 20:25:41,63865 - INFO - Epoch 180 training completed. Avg Loss: 2.1242, LR: 0.037965
+2025-03-25 20:25:45,15699 - INFO - Validation completed - Loss: 1.9184, Top1: 75.44%, Top5: 93.56%
+2025-03-25 20:25:45,15699 - INFO - Epoch 180 Summary: 
+Train Loss: 2.1242 | Val Loss: 1.9184
+Top1 Acc: 75.44% | Top5 Acc: 93.56%
+----------------------------------------
+
+2025-03-25 20:25:46,15699 - INFO - Epoch 181/310 started
+2025-03-25 20:28:24,73599 - INFO - Epoch 181 training completed. Avg Loss: 2.1173, LR: 0.037474
+2025-03-25 20:28:28,25432 - INFO - Validation completed - Loss: 1.8763, Top1: 76.14%, Top5: 93.50%
+2025-03-25 20:28:28,25432 - INFO - Epoch 181 Summary: 
+Train Loss: 2.1173 | Val Loss: 1.8763
+Top1 Acc: 76.14% | Top5 Acc: 93.50%
+----------------------------------------
+
+2025-03-25 20:28:29,25432 - INFO - Epoch 182/310 started
+2025-03-25 20:31:07,83332 - INFO - Epoch 182 training completed. Avg Loss: 2.1156, LR: 0.036984
+2025-03-25 20:31:11,35165 - INFO - Validation completed - Loss: 1.9211, Top1: 74.72%, Top5: 92.70%
+2025-03-25 20:31:11,35265 - INFO - Epoch 182 Summary: 
+Train Loss: 2.1156 | Val Loss: 1.9211
+Top1 Acc: 74.72% | Top5 Acc: 92.70%
+----------------------------------------
+
+2025-03-25 20:31:12,35265 - INFO - Epoch 183/310 started
+2025-03-25 20:33:50,93165 - INFO - Epoch 183 training completed. Avg Loss: 2.1182, LR: 0.036495
+2025-03-25 20:33:54,44998 - INFO - Validation completed - Loss: 1.8920, Top1: 76.18%, Top5: 93.60%
+2025-03-25 20:33:54,45098 - INFO - Epoch 183 Summary: 
+Train Loss: 2.1182 | Val Loss: 1.8920
+Top1 Acc: 76.18% | Top5 Acc: 93.60%
+----------------------------------------
+
+2025-03-25 20:33:55,45098 - INFO - Epoch 184/310 started
+2025-03-25 20:36:34,02998 - INFO - Epoch 184 training completed. Avg Loss: 2.1130, LR: 0.036008
+2025-03-25 20:36:37,54832 - INFO - Validation completed - Loss: 1.9147, Top1: 75.02%, Top5: 93.68%
+2025-03-25 20:36:37,54932 - INFO - Epoch 184 Summary: 
+Train Loss: 2.1130 | Val Loss: 1.9147
+Top1 Acc: 75.02% | Top5 Acc: 93.68%
+----------------------------------------
+
+2025-03-25 20:36:38,54932 - INFO - Epoch 185/310 started
+2025-03-25 20:39:17,12832 - INFO - Epoch 185 training completed. Avg Loss: 2.1075, LR: 0.035523
+2025-03-25 20:39:20,64665 - INFO - Validation completed - Loss: 1.8735, Top1: 76.94%, Top5: 93.56%
+2025-03-25 20:39:20,79865 - INFO - New best model saved with Top1 Acc: 76.94%
+2025-03-25 20:39:20,79865 - INFO - Epoch 185 Summary: 
+Train Loss: 2.1075 | Val Loss: 1.8735
+Top1 Acc: 76.94% | Top5 Acc: 93.56%
+----------------------------------------
+
+2025-03-25 20:39:21,79865 - INFO - Epoch 186/310 started
+2025-03-25 20:42:00,37765 - INFO - Epoch 186 training completed. Avg Loss: 2.1047, LR: 0.035038
+2025-03-25 20:42:03,89598 - INFO - Validation completed - Loss: 1.8405, Top1: 77.40%, Top5: 93.86%
+2025-03-25 20:42:04,05798 - INFO - New best model saved with Top1 Acc: 77.40%
+2025-03-25 20:42:04,05898 - INFO - Epoch 186 Summary: 
+Train Loss: 2.1047 | Val Loss: 1.8405
+Top1 Acc: 77.40% | Top5 Acc: 93.86%
+----------------------------------------
+
+2025-03-25 20:42:05,05898 - INFO - Epoch 187/310 started
+2025-03-25 20:44:43,63798 - INFO - Epoch 187 training completed. Avg Loss: 2.1036, LR: 0.034556
+2025-03-25 20:44:47,15632 - INFO - Validation completed - Loss: 1.8846, Top1: 75.64%, Top5: 93.80%
+2025-03-25 20:44:47,15732 - INFO - Epoch 187 Summary: 
+Train Loss: 2.1036 | Val Loss: 1.8846
+Top1 Acc: 75.64% | Top5 Acc: 93.80%
+----------------------------------------
+
+2025-03-25 20:44:48,15732 - INFO - Epoch 188/310 started
+2025-03-25 20:47:26,73632 - INFO - Epoch 188 training completed. Avg Loss: 2.0979, LR: 0.034075
+2025-03-25 20:47:30,25465 - INFO - Validation completed - Loss: 1.8545, Top1: 76.62%, Top5: 93.56%
+2025-03-25 20:47:30,25565 - INFO - Epoch 188 Summary: 
+Train Loss: 2.0979 | Val Loss: 1.8545
+Top1 Acc: 76.62% | Top5 Acc: 93.56%
+----------------------------------------
+
+2025-03-25 20:47:31,25565 - INFO - Epoch 189/310 started
+2025-03-25 20:50:09,83465 - INFO - Epoch 189 training completed. Avg Loss: 2.0857, LR: 0.033595
+2025-03-25 20:50:13,35298 - INFO - Validation completed - Loss: 1.8580, Top1: 76.76%, Top5: 94.12%
+2025-03-25 20:50:13,35398 - INFO - Epoch 189 Summary: 
+Train Loss: 2.0857 | Val Loss: 1.8580
+Top1 Acc: 76.76% | Top5 Acc: 94.12%
+----------------------------------------
+
+2025-03-25 20:50:14,35398 - INFO - Epoch 190/310 started
+2025-03-25 20:52:52,93298 - INFO - Epoch 190 training completed. Avg Loss: 2.0868, LR: 0.033117
+2025-03-25 20:52:56,45132 - INFO - Validation completed - Loss: 1.8746, Top1: 76.44%, Top5: 93.56%
+2025-03-25 20:52:56,45132 - INFO - Epoch 190 Summary: 
+Train Loss: 2.0868 | Val Loss: 1.8746
+Top1 Acc: 76.44% | Top5 Acc: 93.56%
+----------------------------------------
+
+2025-03-25 20:52:57,45132 - INFO - Epoch 191/310 started
+2025-03-25 20:55:36,03032 - INFO - Epoch 191 training completed. Avg Loss: 2.0826, LR: 0.032641
+2025-03-25 20:55:39,54865 - INFO - Validation completed - Loss: 1.8629, Top1: 76.82%, Top5: 94.36%
+2025-03-25 20:55:39,54965 - INFO - Epoch 191 Summary: 
+Train Loss: 2.0826 | Val Loss: 1.8629
+Top1 Acc: 76.82% | Top5 Acc: 94.36%
+----------------------------------------
+
+2025-03-25 20:55:40,54965 - INFO - Epoch 192/310 started
+2025-03-25 20:58:19,12865 - INFO - Epoch 192 training completed. Avg Loss: 2.0776, LR: 0.032167
+2025-03-25 20:58:22,64698 - INFO - Validation completed - Loss: 1.8720, Top1: 76.06%, Top5: 93.86%
+2025-03-25 20:58:22,64798 - INFO - Epoch 192 Summary: 
+Train Loss: 2.0776 | Val Loss: 1.8720
+Top1 Acc: 76.06% | Top5 Acc: 93.86%
+----------------------------------------
+
+2025-03-25 20:58:23,64798 - INFO - Epoch 193/310 started
+2025-03-25 21:01:02,22698 - INFO - Epoch 193 training completed. Avg Loss: 2.0754, LR: 0.031695
+2025-03-25 21:01:05,74531 - INFO - Validation completed - Loss: 1.8686, Top1: 76.94%, Top5: 94.18%
+2025-03-25 21:01:05,74631 - INFO - Epoch 193 Summary: 
+Train Loss: 2.0754 | Val Loss: 1.8686
+Top1 Acc: 76.94% | Top5 Acc: 94.18%
+----------------------------------------
+
+2025-03-25 21:01:06,74631 - INFO - Epoch 194/310 started
+2025-03-25 21:03:45,32531 - INFO - Epoch 194 training completed. Avg Loss: 2.0731, LR: 0.031224
+2025-03-25 21:03:48,84365 - INFO - Validation completed - Loss: 1.8771, Top1: 76.58%, Top5: 93.68%
+2025-03-25 21:03:48,84465 - INFO - Epoch 194 Summary: 
+Train Loss: 2.0731 | Val Loss: 1.8771
+Top1 Acc: 76.58% | Top5 Acc: 93.68%
+----------------------------------------
+
+2025-03-25 21:03:49,84465 - INFO - Epoch 195/310 started
+2025-03-25 21:06:28,42365 - INFO - Epoch 195 training completed. Avg Loss: 2.0724, LR: 0.030756
+2025-03-25 21:06:31,94198 - INFO - Validation completed - Loss: 1.8338, Top1: 77.60%, Top5: 94.40%
+2025-03-25 21:06:32,10398 - INFO - New best model saved with Top1 Acc: 77.60%
+2025-03-25 21:06:32,10498 - INFO - Epoch 195 Summary: 
+Train Loss: 2.0724 | Val Loss: 1.8338
+Top1 Acc: 77.60% | Top5 Acc: 94.40%
+----------------------------------------
+
+2025-03-25 21:06:33,10498 - INFO - Epoch 196/310 started
+2025-03-25 21:09:11,68398 - INFO - Epoch 196 training completed. Avg Loss: 2.0712, LR: 0.030289
+2025-03-25 21:09:15,20231 - INFO - Validation completed - Loss: 1.8785, Top1: 76.30%, Top5: 93.64%
+2025-03-25 21:09:15,20331 - INFO - Epoch 196 Summary: 
+Train Loss: 2.0712 | Val Loss: 1.8785
+Top1 Acc: 76.30% | Top5 Acc: 93.64%
+----------------------------------------
+
+2025-03-25 21:09:16,20331 - INFO - Epoch 197/310 started
+2025-03-25 21:11:54,78231 - INFO - Epoch 197 training completed. Avg Loss: 2.0567, LR: 0.029825
+2025-03-25 21:11:58,30065 - INFO - Validation completed - Loss: 1.8544, Top1: 77.36%, Top5: 93.92%
+2025-03-25 21:11:58,30065 - INFO - Epoch 197 Summary: 
+Train Loss: 2.0567 | Val Loss: 1.8544
+Top1 Acc: 77.36% | Top5 Acc: 93.92%
+----------------------------------------
+
+2025-03-25 21:11:59,30065 - INFO - Epoch 198/310 started
+2025-03-25 21:14:37,87965 - INFO - Epoch 198 training completed. Avg Loss: 2.0548, LR: 0.029362
+2025-03-25 21:14:41,39798 - INFO - Validation completed - Loss: 1.8435, Top1: 77.62%, Top5: 94.40%
+2025-03-25 21:14:41,56698 - INFO - New best model saved with Top1 Acc: 77.62%
+2025-03-25 21:14:41,56698 - INFO - Epoch 198 Summary: 
+Train Loss: 2.0548 | Val Loss: 1.8435
+Top1 Acc: 77.62% | Top5 Acc: 94.40%
+----------------------------------------
+
+2025-03-25 21:14:42,56698 - INFO - Epoch 199/310 started
+2025-03-25 21:17:21,14598 - INFO - Epoch 199 training completed. Avg Loss: 2.0569, LR: 0.028902
+2025-03-25 21:17:24,66431 - INFO - Validation completed - Loss: 1.8599, Top1: 76.38%, Top5: 94.04%
+2025-03-25 21:17:24,66531 - INFO - Epoch 199 Summary: 
+Train Loss: 2.0569 | Val Loss: 1.8599
+Top1 Acc: 76.38% | Top5 Acc: 94.04%
+----------------------------------------
+
+2025-03-25 21:17:25,66531 - INFO - Epoch 200/310 started
+2025-03-25 21:20:04,24431 - INFO - Epoch 200 training completed. Avg Loss: 2.0514, LR: 0.028443
+2025-03-25 21:20:07,76265 - INFO - Validation completed - Loss: 1.8341, Top1: 77.24%, Top5: 94.20%
+2025-03-25 21:20:07,76365 - INFO - Epoch 200 Summary: 
+Train Loss: 2.0514 | Val Loss: 1.8341
+Top1 Acc: 77.24% | Top5 Acc: 94.20%
+----------------------------------------
+
+2025-03-25 21:20:08,76365 - INFO - Epoch 201/310 started
+2025-03-25 21:22:47,34265 - INFO - Epoch 201 training completed. Avg Loss: 2.0510, LR: 0.027987
+2025-03-25 21:22:50,86098 - INFO - Validation completed - Loss: 1.8239, Top1: 77.60%, Top5: 94.40%
+2025-03-25 21:22:50,86198 - INFO - Epoch 201 Summary: 
+Train Loss: 2.0510 | Val Loss: 1.8239
+Top1 Acc: 77.60% | Top5 Acc: 94.40%
+----------------------------------------
+
+2025-03-25 21:22:51,86198 - INFO - Epoch 202/310 started
+2025-03-25 21:25:30,44098 - INFO - Epoch 202 training completed. Avg Loss: 2.0382, LR: 0.027534
+2025-03-25 21:25:33,95931 - INFO - Validation completed - Loss: 1.7985, Top1: 78.60%, Top5: 94.90%
+2025-03-25 21:25:34,12231 - INFO - New best model saved with Top1 Acc: 78.60%
+2025-03-25 21:25:34,12231 - INFO - Epoch 202 Summary: 
+Train Loss: 2.0382 | Val Loss: 1.7985
+Top1 Acc: 78.60% | Top5 Acc: 94.90%
+----------------------------------------
+
+2025-03-25 21:25:35,12231 - INFO - Epoch 203/310 started
+2025-03-25 21:28:13,70131 - INFO - Epoch 203 training completed. Avg Loss: 2.0355, LR: 0.027082
+2025-03-25 21:28:17,21964 - INFO - Validation completed - Loss: 1.8434, Top1: 77.42%, Top5: 94.80%
+2025-03-25 21:28:17,22064 - INFO - Epoch 203 Summary: 
+Train Loss: 2.0355 | Val Loss: 1.8434
+Top1 Acc: 77.42% | Top5 Acc: 94.80%
+----------------------------------------
+
+2025-03-25 21:28:18,22064 - INFO - Epoch 204/310 started
+2025-03-25 21:30:56,79964 - INFO - Epoch 204 training completed. Avg Loss: 2.0324, LR: 0.026633
+2025-03-25 21:31:00,31798 - INFO - Validation completed - Loss: 1.8136, Top1: 78.46%, Top5: 94.66%
+2025-03-25 21:31:00,31798 - INFO - Epoch 204 Summary: 
+Train Loss: 2.0324 | Val Loss: 1.8136
+Top1 Acc: 78.46% | Top5 Acc: 94.66%
+----------------------------------------
+
+2025-03-25 21:31:01,31798 - INFO - Epoch 205/310 started
+2025-03-25 21:33:39,89698 - INFO - Epoch 205 training completed. Avg Loss: 2.0276, LR: 0.026187
+2025-03-25 21:33:43,41531 - INFO - Validation completed - Loss: 1.8316, Top1: 77.62%, Top5: 94.26%
+2025-03-25 21:33:43,41631 - INFO - Epoch 205 Summary: 
+Train Loss: 2.0276 | Val Loss: 1.8316
+Top1 Acc: 77.62% | Top5 Acc: 94.26%
+----------------------------------------
+
+2025-03-25 21:33:44,41631 - INFO - Epoch 206/310 started
+2025-03-25 21:36:22,99531 - INFO - Epoch 206 training completed. Avg Loss: 2.0317, LR: 0.025742
+2025-03-25 21:36:26,51364 - INFO - Validation completed - Loss: 1.7970, Top1: 78.32%, Top5: 94.44%
+2025-03-25 21:36:26,51364 - INFO - Epoch 206 Summary: 
+Train Loss: 2.0317 | Val Loss: 1.7970
+Top1 Acc: 78.32% | Top5 Acc: 94.44%
+----------------------------------------
+
+2025-03-25 21:36:27,51364 - INFO - Epoch 207/310 started
+2025-03-25 21:39:06,09264 - INFO - Epoch 207 training completed. Avg Loss: 2.0254, LR: 0.025301
+2025-03-25 21:39:09,61098 - INFO - Validation completed - Loss: 1.8354, Top1: 77.72%, Top5: 94.28%
+2025-03-25 21:39:09,61098 - INFO - Epoch 207 Summary: 
+Train Loss: 2.0254 | Val Loss: 1.8354
+Top1 Acc: 77.72% | Top5 Acc: 94.28%
+----------------------------------------
+
+2025-03-25 21:39:10,61098 - INFO - Epoch 208/310 started
+2025-03-25 21:41:49,18998 - INFO - Epoch 208 training completed. Avg Loss: 2.0215, LR: 0.024861
+2025-03-25 21:41:52,70831 - INFO - Validation completed - Loss: 1.7870, Top1: 79.32%, Top5: 94.76%
+2025-03-25 21:41:52,86531 - INFO - New best model saved with Top1 Acc: 79.32%
+2025-03-25 21:41:52,86531 - INFO - Epoch 208 Summary: 
+Train Loss: 2.0215 | Val Loss: 1.7870
+Top1 Acc: 79.32% | Top5 Acc: 94.76%
+----------------------------------------
+
+2025-03-25 21:41:53,86531 - INFO - Epoch 209/310 started
+2025-03-25 21:44:32,44431 - INFO - Epoch 209 training completed. Avg Loss: 2.0275, LR: 0.024425
+2025-03-25 21:44:35,96264 - INFO - Validation completed - Loss: 1.7848, Top1: 78.68%, Top5: 94.94%
+2025-03-25 21:44:35,96364 - INFO - Epoch 209 Summary: 
+Train Loss: 2.0275 | Val Loss: 1.7848
+Top1 Acc: 78.68% | Top5 Acc: 94.94%
+----------------------------------------
+
+2025-03-25 21:44:36,96364 - INFO - Epoch 210/310 started
+2025-03-25 21:47:15,54264 - INFO - Epoch 210 training completed. Avg Loss: 2.0131, LR: 0.023991
+2025-03-25 21:47:19,06098 - INFO - Validation completed - Loss: 1.8144, Top1: 77.64%, Top5: 94.64%
+2025-03-25 21:47:19,06198 - INFO - Epoch 210 Summary: 
+Train Loss: 2.0131 | Val Loss: 1.8144
+Top1 Acc: 77.64% | Top5 Acc: 94.64%
+----------------------------------------
+
+2025-03-25 21:47:20,06198 - INFO - Epoch 211/310 started
+2025-03-25 21:49:58,64098 - INFO - Epoch 211 training completed. Avg Loss: 2.0042, LR: 0.023559
+2025-03-25 21:50:02,15931 - INFO - Validation completed - Loss: 1.8090, Top1: 78.92%, Top5: 94.34%
+2025-03-25 21:50:02,16031 - INFO - Epoch 211 Summary: 
+Train Loss: 2.0042 | Val Loss: 1.8090
+Top1 Acc: 78.92% | Top5 Acc: 94.34%
+----------------------------------------
+
+2025-03-25 21:50:03,16031 - INFO - Epoch 212/310 started
+2025-03-25 21:52:41,73931 - INFO - Epoch 212 training completed. Avg Loss: 2.0048, LR: 0.023131
+2025-03-25 21:52:45,25764 - INFO - Validation completed - Loss: 1.8071, Top1: 79.08%, Top5: 94.70%
+2025-03-25 21:52:45,25764 - INFO - Epoch 212 Summary: 
+Train Loss: 2.0048 | Val Loss: 1.8071
+Top1 Acc: 79.08% | Top5 Acc: 94.70%
+----------------------------------------
+
+2025-03-25 21:52:46,25764 - INFO - Epoch 213/310 started
+2025-03-25 21:55:24,83664 - INFO - Epoch 213 training completed. Avg Loss: 2.0008, LR: 0.022705
+2025-03-25 21:55:28,35497 - INFO - Validation completed - Loss: 1.8060, Top1: 78.44%, Top5: 94.86%
+2025-03-25 21:55:28,35497 - INFO - Epoch 213 Summary: 
+Train Loss: 2.0008 | Val Loss: 1.8060
+Top1 Acc: 78.44% | Top5 Acc: 94.86%
+----------------------------------------
+
+2025-03-25 21:55:29,35497 - INFO - Epoch 214/310 started
+2025-03-25 21:58:07,93397 - INFO - Epoch 214 training completed. Avg Loss: 1.9946, LR: 0.022282
+2025-03-25 21:58:11,45231 - INFO - Validation completed - Loss: 1.7865, Top1: 79.18%, Top5: 94.84%
+2025-03-25 21:58:11,45331 - INFO - Epoch 214 Summary: 
+Train Loss: 1.9946 | Val Loss: 1.7865
+Top1 Acc: 79.18% | Top5 Acc: 94.84%
+----------------------------------------
+
+2025-03-25 21:58:12,45331 - INFO - Epoch 215/310 started
+2025-03-25 22:00:51,03231 - INFO - Epoch 215 training completed. Avg Loss: 1.9908, LR: 0.021862
+2025-03-25 22:00:54,55064 - INFO - Validation completed - Loss: 1.7831, Top1: 79.70%, Top5: 94.70%
+2025-03-25 22:00:54,71164 - INFO - New best model saved with Top1 Acc: 79.70%
+2025-03-25 22:00:54,71164 - INFO - Epoch 215 Summary: 
+Train Loss: 1.9908 | Val Loss: 1.7831
+Top1 Acc: 79.70% | Top5 Acc: 94.70%
+----------------------------------------
+
+2025-03-25 22:00:55,71164 - INFO - Epoch 216/310 started
+2025-03-25 22:03:34,29064 - INFO - Epoch 216 training completed. Avg Loss: 1.9909, LR: 0.021444
+2025-03-25 22:03:37,80897 - INFO - Validation completed - Loss: 1.7966, Top1: 77.88%, Top5: 94.72%
+2025-03-25 22:03:37,80897 - INFO - Epoch 216 Summary: 
+Train Loss: 1.9909 | Val Loss: 1.7966
+Top1 Acc: 77.88% | Top5 Acc: 94.72%
+----------------------------------------
+
+2025-03-25 22:03:38,80897 - INFO - Epoch 217/310 started
+2025-03-25 22:06:17,38797 - INFO - Epoch 217 training completed. Avg Loss: 1.9848, LR: 0.021030
+2025-03-25 22:06:20,90631 - INFO - Validation completed - Loss: 1.8219, Top1: 78.08%, Top5: 94.20%
+2025-03-25 22:06:20,90731 - INFO - Epoch 217 Summary: 
+Train Loss: 1.9848 | Val Loss: 1.8219
+Top1 Acc: 78.08% | Top5 Acc: 94.20%
+----------------------------------------
+
+2025-03-25 22:06:21,90731 - INFO - Epoch 218/310 started
+2025-03-25 22:09:00,48631 - INFO - Epoch 218 training completed. Avg Loss: 1.9798, LR: 0.020619
+2025-03-25 22:09:04,00464 - INFO - Validation completed - Loss: 1.7780, Top1: 78.80%, Top5: 94.92%
+2025-03-25 22:09:04,00564 - INFO - Epoch 218 Summary: 
+Train Loss: 1.9798 | Val Loss: 1.7780
+Top1 Acc: 78.80% | Top5 Acc: 94.92%
+----------------------------------------
+
+2025-03-25 22:09:05,00564 - INFO - Epoch 219/310 started
+2025-03-25 22:11:43,58464 - INFO - Epoch 219 training completed. Avg Loss: 1.9774, LR: 0.020210
+2025-03-25 22:11:47,10297 - INFO - Validation completed - Loss: 1.7657, Top1: 80.12%, Top5: 94.86%
+2025-03-25 22:11:47,25697 - INFO - New best model saved with Top1 Acc: 80.12%
+2025-03-25 22:11:47,25797 - INFO - Epoch 219 Summary: 
+Train Loss: 1.9774 | Val Loss: 1.7657
+Top1 Acc: 80.12% | Top5 Acc: 94.86%
+----------------------------------------
+
+2025-03-25 22:11:48,25797 - INFO - Epoch 220/310 started
+2025-03-25 22:14:26,83697 - INFO - Epoch 220 training completed. Avg Loss: 1.9691, LR: 0.019805
+2025-03-25 22:14:30,35531 - INFO - Validation completed - Loss: 1.7962, Top1: 79.88%, Top5: 94.82%
+2025-03-25 22:14:30,35531 - INFO - Epoch 220 Summary: 
+Train Loss: 1.9691 | Val Loss: 1.7962
+Top1 Acc: 79.88% | Top5 Acc: 94.82%
+----------------------------------------
+
+2025-03-25 22:14:31,35531 - INFO - Epoch 221/310 started
+2025-03-25 22:17:09,93431 - INFO - Epoch 221 training completed. Avg Loss: 1.9656, LR: 0.019403
+2025-03-25 22:17:13,45264 - INFO - Validation completed - Loss: 1.7676, Top1: 79.12%, Top5: 94.90%
+2025-03-25 22:17:13,45264 - INFO - Epoch 221 Summary: 
+Train Loss: 1.9656 | Val Loss: 1.7676
+Top1 Acc: 79.12% | Top5 Acc: 94.90%
+----------------------------------------
+
+2025-03-25 22:17:14,45264 - INFO - Epoch 222/310 started
+2025-03-25 22:19:53,03164 - INFO - Epoch 222 training completed. Avg Loss: 1.9591, LR: 0.019004
+2025-03-25 22:19:56,54997 - INFO - Validation completed - Loss: 1.7991, Top1: 78.30%, Top5: 94.28%
+2025-03-25 22:19:56,54997 - INFO - Epoch 222 Summary: 
+Train Loss: 1.9591 | Val Loss: 1.7991
+Top1 Acc: 78.30% | Top5 Acc: 94.28%
+----------------------------------------
+
+2025-03-25 22:19:57,54997 - INFO - Epoch 223/310 started
+2025-03-25 22:22:36,12897 - INFO - Epoch 223 training completed. Avg Loss: 1.9598, LR: 0.018608
+2025-03-25 22:22:39,64730 - INFO - Validation completed - Loss: 1.7781, Top1: 79.10%, Top5: 94.80%
+2025-03-25 22:22:39,64830 - INFO - Epoch 223 Summary: 
+Train Loss: 1.9598 | Val Loss: 1.7781
+Top1 Acc: 79.10% | Top5 Acc: 94.80%
+----------------------------------------
+
+2025-03-25 22:22:40,64830 - INFO - Epoch 224/310 started
+2025-03-25 22:25:19,22730 - INFO - Epoch 224 training completed. Avg Loss: 1.9565, LR: 0.018215
+2025-03-25 22:25:22,74564 - INFO - Validation completed - Loss: 1.7778, Top1: 79.20%, Top5: 94.52%
+2025-03-25 22:25:22,74664 - INFO - Epoch 224 Summary: 
+Train Loss: 1.9565 | Val Loss: 1.7778
+Top1 Acc: 79.20% | Top5 Acc: 94.52%
+----------------------------------------
+
+2025-03-25 22:25:23,74664 - INFO - Epoch 225/310 started
+2025-03-25 22:28:02,32564 - INFO - Epoch 225 training completed. Avg Loss: 1.9489, LR: 0.017826
+2025-03-25 22:28:05,84397 - INFO - Validation completed - Loss: 1.7524, Top1: 79.24%, Top5: 95.12%
+2025-03-25 22:28:05,84497 - INFO - Epoch 225 Summary: 
+Train Loss: 1.9489 | Val Loss: 1.7524
+Top1 Acc: 79.24% | Top5 Acc: 95.12%
+----------------------------------------
+
+2025-03-25 22:28:06,84497 - INFO - Epoch 226/310 started
+2025-03-25 22:30:45,42397 - INFO - Epoch 226 training completed. Avg Loss: 1.9472, LR: 0.017440
+2025-03-25 22:30:48,94230 - INFO - Validation completed - Loss: 1.7845, Top1: 79.50%, Top5: 94.84%
+2025-03-25 22:30:48,94330 - INFO - Epoch 226 Summary: 
+Train Loss: 1.9472 | Val Loss: 1.7845
+Top1 Acc: 79.50% | Top5 Acc: 94.84%
+----------------------------------------
+
+2025-03-25 22:30:49,94330 - INFO - Epoch 227/310 started
+2025-03-25 22:33:28,52230 - INFO - Epoch 227 training completed. Avg Loss: 1.9445, LR: 0.017057
+2025-03-25 22:33:32,04064 - INFO - Validation completed - Loss: 1.7793, Top1: 80.32%, Top5: 94.90%
+2025-03-25 22:33:32,21364 - INFO - New best model saved with Top1 Acc: 80.32%
+2025-03-25 22:33:32,21364 - INFO - Epoch 227 Summary: 
+Train Loss: 1.9445 | Val Loss: 1.7793
+Top1 Acc: 80.32% | Top5 Acc: 94.90%
+----------------------------------------
+
+2025-03-25 22:33:33,21364 - INFO - Epoch 228/310 started
+2025-03-25 22:36:11,79264 - INFO - Epoch 228 training completed. Avg Loss: 1.9353, LR: 0.016678
+2025-03-25 22:36:15,31097 - INFO - Validation completed - Loss: 1.7779, Top1: 79.26%, Top5: 94.64%
+2025-03-25 22:36:15,31197 - INFO - Epoch 228 Summary: 
+Train Loss: 1.9353 | Val Loss: 1.7779
+Top1 Acc: 79.26% | Top5 Acc: 94.64%
+----------------------------------------
+
+2025-03-25 22:36:16,31197 - INFO - Epoch 229/310 started
+2025-03-25 22:38:54,89097 - INFO - Epoch 229 training completed. Avg Loss: 1.9336, LR: 0.016302
+2025-03-25 22:38:58,40930 - INFO - Validation completed - Loss: 1.7619, Top1: 80.04%, Top5: 95.02%
+2025-03-25 22:38:58,40930 - INFO - Epoch 229 Summary: 
+Train Loss: 1.9336 | Val Loss: 1.7619
+Top1 Acc: 80.04% | Top5 Acc: 95.02%
+----------------------------------------
+
+2025-03-25 22:38:59,40930 - INFO - Epoch 230/310 started
+2025-03-25 22:41:37,98830 - INFO - Epoch 230 training completed. Avg Loss: 1.9322, LR: 0.015929
+2025-03-25 22:41:41,50664 - INFO - Validation completed - Loss: 1.7603, Top1: 79.52%, Top5: 95.18%
+2025-03-25 22:41:41,50764 - INFO - Epoch 230 Summary: 
+Train Loss: 1.9322 | Val Loss: 1.7603
+Top1 Acc: 79.52% | Top5 Acc: 95.18%
+----------------------------------------
+
+2025-03-25 22:41:42,50764 - INFO - Epoch 231/310 started
+2025-03-25 22:44:21,08664 - INFO - Epoch 231 training completed. Avg Loss: 1.9272, LR: 0.015560
+2025-03-25 22:44:24,60497 - INFO - Validation completed - Loss: 1.7447, Top1: 80.24%, Top5: 95.14%
+2025-03-25 22:44:24,60497 - INFO - Epoch 231 Summary: 
+Train Loss: 1.9272 | Val Loss: 1.7447
+Top1 Acc: 80.24% | Top5 Acc: 95.14%
+----------------------------------------
+
+2025-03-25 22:44:25,60497 - INFO - Epoch 232/310 started
+2025-03-25 22:47:04,18397 - INFO - Epoch 232 training completed. Avg Loss: 1.9240, LR: 0.015195
+2025-03-25 22:47:07,70230 - INFO - Validation completed - Loss: 1.7660, Top1: 79.12%, Top5: 94.70%
+2025-03-25 22:47:07,70330 - INFO - Epoch 232 Summary: 
+Train Loss: 1.9240 | Val Loss: 1.7660
+Top1 Acc: 79.12% | Top5 Acc: 94.70%
+----------------------------------------
+
+2025-03-25 22:47:08,70330 - INFO - Epoch 233/310 started
+2025-03-25 22:49:47,28230 - INFO - Epoch 233 training completed. Avg Loss: 1.9188, LR: 0.014833
+2025-03-25 22:49:50,80063 - INFO - Validation completed - Loss: 1.7402, Top1: 80.80%, Top5: 95.16%
+2025-03-25 22:49:50,97063 - INFO - New best model saved with Top1 Acc: 80.80%
+2025-03-25 22:49:50,97063 - INFO - Epoch 233 Summary: 
+Train Loss: 1.9188 | Val Loss: 1.7402
+Top1 Acc: 80.80% | Top5 Acc: 95.16%
+----------------------------------------
+
+2025-03-25 22:49:51,97063 - INFO - Epoch 234/310 started
+2025-03-25 22:52:30,54963 - INFO - Epoch 234 training completed. Avg Loss: 1.9151, LR: 0.014475
+2025-03-25 22:52:34,06797 - INFO - Validation completed - Loss: 1.7452, Top1: 80.10%, Top5: 95.24%
+2025-03-25 22:52:34,06797 - INFO - Epoch 234 Summary: 
+Train Loss: 1.9151 | Val Loss: 1.7452
+Top1 Acc: 80.10% | Top5 Acc: 95.24%
+----------------------------------------
+
+2025-03-25 22:52:35,06797 - INFO - Epoch 235/310 started
+2025-03-25 22:55:13,64697 - INFO - Epoch 235 training completed. Avg Loss: 1.9064, LR: 0.014120
+2025-03-25 22:55:17,16530 - INFO - Validation completed - Loss: 1.7259, Top1: 80.40%, Top5: 95.18%
+2025-03-25 22:55:17,16630 - INFO - Epoch 235 Summary: 
+Train Loss: 1.9064 | Val Loss: 1.7259
+Top1 Acc: 80.40% | Top5 Acc: 95.18%
+----------------------------------------
+
+2025-03-25 22:55:18,16630 - INFO - Epoch 236/310 started
+2025-03-25 22:57:56,74530 - INFO - Epoch 236 training completed. Avg Loss: 1.9012, LR: 0.013769
+2025-03-25 22:58:00,26363 - INFO - Validation completed - Loss: 1.7691, Top1: 79.74%, Top5: 94.82%
+2025-03-25 22:58:00,26363 - INFO - Epoch 236 Summary: 
+Train Loss: 1.9012 | Val Loss: 1.7691
+Top1 Acc: 79.74% | Top5 Acc: 94.82%
+----------------------------------------
+
+2025-03-25 22:58:01,26363 - INFO - Epoch 237/310 started
+2025-03-25 23:00:39,84263 - INFO - Epoch 237 training completed. Avg Loss: 1.9054, LR: 0.013422
+2025-03-25 23:00:43,36097 - INFO - Validation completed - Loss: 1.7317, Top1: 81.20%, Top5: 95.28%
+2025-03-25 23:00:43,52797 - INFO - New best model saved with Top1 Acc: 81.20%
+2025-03-25 23:00:43,52797 - INFO - Epoch 237 Summary: 
+Train Loss: 1.9054 | Val Loss: 1.7317
+Top1 Acc: 81.20% | Top5 Acc: 95.28%
+----------------------------------------
+
+2025-03-25 23:00:44,52797 - INFO - Epoch 238/310 started
+2025-03-25 23:03:23,10697 - INFO - Epoch 238 training completed. Avg Loss: 1.8978, LR: 0.013078
+2025-03-25 23:03:26,62530 - INFO - Validation completed - Loss: 1.7245, Top1: 80.64%, Top5: 95.82%
+2025-03-25 23:03:26,62630 - INFO - Epoch 238 Summary: 
+Train Loss: 1.8978 | Val Loss: 1.7245
+Top1 Acc: 80.64% | Top5 Acc: 95.82%
+----------------------------------------
+
+2025-03-25 23:03:27,62630 - INFO - Epoch 239/310 started
+2025-03-25 23:06:06,20530 - INFO - Epoch 239 training completed. Avg Loss: 1.8917, LR: 0.012739
+2025-03-25 23:06:09,72363 - INFO - Validation completed - Loss: 1.7136, Top1: 81.42%, Top5: 95.38%
+2025-03-25 23:06:09,87963 - INFO - New best model saved with Top1 Acc: 81.42%
+2025-03-25 23:06:09,87963 - INFO - Epoch 239 Summary: 
+Train Loss: 1.8917 | Val Loss: 1.7136
+Top1 Acc: 81.42% | Top5 Acc: 95.38%
+----------------------------------------
+
+2025-03-25 23:06:10,87963 - INFO - Epoch 240/310 started
+2025-03-25 23:08:49,45863 - INFO - Epoch 240 training completed. Avg Loss: 1.8883, LR: 0.012403
+2025-03-25 23:08:52,97697 - INFO - Validation completed - Loss: 1.7455, Top1: 79.82%, Top5: 95.20%
+2025-03-25 23:08:52,97797 - INFO - Epoch 240 Summary: 
+Train Loss: 1.8883 | Val Loss: 1.7455
+Top1 Acc: 79.82% | Top5 Acc: 95.20%
+----------------------------------------
+
+2025-03-25 23:08:53,97797 - INFO - Epoch 241/310 started
+2025-03-25 23:11:32,55697 - INFO - Epoch 241 training completed. Avg Loss: 1.8864, LR: 0.012071
+2025-03-25 23:11:36,07530 - INFO - Validation completed - Loss: 1.7121, Top1: 81.24%, Top5: 95.58%
+2025-03-25 23:11:36,07530 - INFO - Epoch 241 Summary: 
+Train Loss: 1.8864 | Val Loss: 1.7121
+Top1 Acc: 81.24% | Top5 Acc: 95.58%
+----------------------------------------
+
+2025-03-25 23:11:37,07530 - INFO - Epoch 242/310 started
+2025-03-25 23:14:15,65430 - INFO - Epoch 242 training completed. Avg Loss: 1.8822, LR: 0.011743
+2025-03-25 23:14:19,17263 - INFO - Validation completed - Loss: 1.7404, Top1: 80.68%, Top5: 95.30%
+2025-03-25 23:14:19,17263 - INFO - Epoch 242 Summary: 
+Train Loss: 1.8822 | Val Loss: 1.7404
+Top1 Acc: 80.68% | Top5 Acc: 95.30%
+----------------------------------------
+
+2025-03-25 23:14:20,17263 - INFO - Epoch 243/310 started
+2025-03-25 23:16:58,75163 - INFO - Epoch 243 training completed. Avg Loss: 1.8792, LR: 0.011419
+2025-03-25 23:17:02,26996 - INFO - Validation completed - Loss: 1.7166, Top1: 81.20%, Top5: 95.62%
+2025-03-25 23:17:02,26996 - INFO - Epoch 243 Summary: 
+Train Loss: 1.8792 | Val Loss: 1.7166
+Top1 Acc: 81.20% | Top5 Acc: 95.62%
+----------------------------------------
+
+2025-03-25 23:17:03,26996 - INFO - Epoch 244/310 started
+2025-03-25 23:19:41,84896 - INFO - Epoch 244 training completed. Avg Loss: 1.8736, LR: 0.011099
+2025-03-25 23:19:45,36730 - INFO - Validation completed - Loss: 1.7025, Top1: 81.46%, Top5: 95.60%
+2025-03-25 23:19:45,52330 - INFO - New best model saved with Top1 Acc: 81.46%
+2025-03-25 23:19:45,52330 - INFO - Epoch 244 Summary: 
+Train Loss: 1.8736 | Val Loss: 1.7025
+Top1 Acc: 81.46% | Top5 Acc: 95.60%
+----------------------------------------
+
+2025-03-25 23:19:46,52330 - INFO - Epoch 245/310 started
+2025-03-25 23:22:25,10230 - INFO - Epoch 245 training completed. Avg Loss: 1.8628, LR: 0.010782
+2025-03-25 23:22:28,62063 - INFO - Validation completed - Loss: 1.7115, Top1: 80.74%, Top5: 95.66%
+2025-03-25 23:22:28,62163 - INFO - Epoch 245 Summary: 
+Train Loss: 1.8628 | Val Loss: 1.7115
+Top1 Acc: 80.74% | Top5 Acc: 95.66%
+----------------------------------------
+
+2025-03-25 23:22:29,62163 - INFO - Epoch 246/310 started
+2025-03-25 23:25:08,20063 - INFO - Epoch 246 training completed. Avg Loss: 1.8590, LR: 0.010470
+2025-03-25 23:25:11,71896 - INFO - Validation completed - Loss: 1.7256, Top1: 80.62%, Top5: 95.32%
+2025-03-25 23:25:11,71996 - INFO - Epoch 246 Summary: 
+Train Loss: 1.8590 | Val Loss: 1.7256
+Top1 Acc: 80.62% | Top5 Acc: 95.32%
+----------------------------------------
+
+2025-03-25 23:25:12,71996 - INFO - Epoch 247/310 started
+2025-03-25 23:27:51,29896 - INFO - Epoch 247 training completed. Avg Loss: 1.8575, LR: 0.010162
+2025-03-25 23:27:54,81730 - INFO - Validation completed - Loss: 1.7070, Top1: 82.10%, Top5: 95.66%
+2025-03-25 23:27:54,97530 - INFO - New best model saved with Top1 Acc: 82.10%
+2025-03-25 23:27:54,97530 - INFO - Epoch 247 Summary: 
+Train Loss: 1.8575 | Val Loss: 1.7070
+Top1 Acc: 82.10% | Top5 Acc: 95.66%
+----------------------------------------
+
+2025-03-25 23:27:55,97530 - INFO - Epoch 248/310 started
+2025-03-25 23:30:34,55430 - INFO - Epoch 248 training completed. Avg Loss: 1.8506, LR: 0.009858
+2025-03-25 23:30:38,07263 - INFO - Validation completed - Loss: 1.7118, Top1: 81.06%, Top5: 95.40%
+2025-03-25 23:30:38,07363 - INFO - Epoch 248 Summary: 
+Train Loss: 1.8506 | Val Loss: 1.7118
+Top1 Acc: 81.06% | Top5 Acc: 95.40%
+----------------------------------------
+
+2025-03-25 23:30:39,07363 - INFO - Epoch 249/310 started
+2025-03-25 23:33:17,65263 - INFO - Epoch 249 training completed. Avg Loss: 1.8462, LR: 0.009558
+2025-03-25 23:33:21,17096 - INFO - Validation completed - Loss: 1.7020, Top1: 81.38%, Top5: 95.54%
+2025-03-25 23:33:21,17096 - INFO - Epoch 249 Summary: 
+Train Loss: 1.8462 | Val Loss: 1.7020
+Top1 Acc: 81.38% | Top5 Acc: 95.54%
+----------------------------------------
+
+2025-03-25 23:33:22,17096 - INFO - Epoch 250/310 started
+2025-03-25 23:36:00,74996 - INFO - Epoch 250 training completed. Avg Loss: 1.8439, LR: 0.009262
+2025-03-25 23:36:04,26830 - INFO - Validation completed - Loss: 1.6951, Top1: 82.10%, Top5: 95.92%
+2025-03-25 23:36:04,26930 - INFO - Epoch 250 Summary: 
+Train Loss: 1.8439 | Val Loss: 1.6951
+Top1 Acc: 82.10% | Top5 Acc: 95.92%
+----------------------------------------
+
+2025-03-25 23:36:05,26930 - INFO - Epoch 251/310 started
+2025-03-25 23:38:43,84830 - INFO - Epoch 251 training completed. Avg Loss: 1.8340, LR: 0.008971
+2025-03-25 23:38:47,36663 - INFO - Validation completed - Loss: 1.7002, Top1: 81.10%, Top5: 95.74%
+2025-03-25 23:38:47,36763 - INFO - Epoch 251 Summary: 
+Train Loss: 1.8340 | Val Loss: 1.7002
+Top1 Acc: 81.10% | Top5 Acc: 95.74%
+----------------------------------------
+
+2025-03-25 23:38:48,36763 - INFO - Epoch 252/310 started
+2025-03-25 23:41:26,94663 - INFO - Epoch 252 training completed. Avg Loss: 1.8339, LR: 0.008684
+2025-03-25 23:41:30,46496 - INFO - Validation completed - Loss: 1.7125, Top1: 81.64%, Top5: 95.76%
+2025-03-25 23:41:30,46596 - INFO - Epoch 252 Summary: 
+Train Loss: 1.8339 | Val Loss: 1.7125
+Top1 Acc: 81.64% | Top5 Acc: 95.76%
+----------------------------------------
+
+2025-03-25 23:41:31,46596 - INFO - Epoch 253/310 started
+2025-03-25 23:44:10,04496 - INFO - Epoch 253 training completed. Avg Loss: 1.8326, LR: 0.008401
+2025-03-25 23:44:13,56329 - INFO - Validation completed - Loss: 1.6996, Top1: 82.00%, Top5: 95.78%
+2025-03-25 23:44:13,56329 - INFO - Epoch 253 Summary: 
+Train Loss: 1.8326 | Val Loss: 1.6996
+Top1 Acc: 82.00% | Top5 Acc: 95.78%
+----------------------------------------
+
+2025-03-25 23:44:14,56329 - INFO - Epoch 254/310 started
+2025-03-25 23:46:53,14229 - INFO - Epoch 254 training completed. Avg Loss: 1.8261, LR: 0.008122
+2025-03-25 23:46:56,66063 - INFO - Validation completed - Loss: 1.6916, Top1: 82.28%, Top5: 96.22%
+2025-03-25 23:46:56,82663 - INFO - New best model saved with Top1 Acc: 82.28%
+2025-03-25 23:46:56,82663 - INFO - Epoch 254 Summary: 
+Train Loss: 1.8261 | Val Loss: 1.6916
+Top1 Acc: 82.28% | Top5 Acc: 96.22%
+----------------------------------------
+
+2025-03-25 23:46:57,82663 - INFO - Epoch 255/310 started
+2025-03-25 23:49:36,40563 - INFO - Epoch 255 training completed. Avg Loss: 1.8226, LR: 0.007847
+2025-03-25 23:49:39,92396 - INFO - Validation completed - Loss: 1.7026, Top1: 81.68%, Top5: 95.60%
+2025-03-25 23:49:39,92496 - INFO - Epoch 255 Summary: 
+Train Loss: 1.8226 | Val Loss: 1.7026
+Top1 Acc: 81.68% | Top5 Acc: 95.60%
+----------------------------------------
+
+2025-03-25 23:49:40,92496 - INFO - Epoch 256/310 started
+2025-03-25 23:52:19,50396 - INFO - Epoch 256 training completed. Avg Loss: 1.8155, LR: 0.007577
+2025-03-25 23:52:23,02229 - INFO - Validation completed - Loss: 1.6845, Top1: 81.90%, Top5: 95.76%
+2025-03-25 23:52:23,02229 - INFO - Epoch 256 Summary: 
+Train Loss: 1.8155 | Val Loss: 1.6845
+Top1 Acc: 81.90% | Top5 Acc: 95.76%
+----------------------------------------
+
+2025-03-25 23:52:24,02229 - INFO - Epoch 257/310 started
+2025-03-25 23:55:02,60129 - INFO - Epoch 257 training completed. Avg Loss: 1.8088, LR: 0.007311
+2025-03-25 23:55:06,11963 - INFO - Validation completed - Loss: 1.6779, Top1: 82.84%, Top5: 95.74%
+2025-03-25 23:55:06,27963 - INFO - New best model saved with Top1 Acc: 82.84%
+2025-03-25 23:55:06,27963 - INFO - Epoch 257 Summary: 
+Train Loss: 1.8088 | Val Loss: 1.6779
+Top1 Acc: 82.84% | Top5 Acc: 95.74%
+----------------------------------------
+
+2025-03-25 23:55:07,27963 - INFO - Epoch 258/310 started
+2025-03-25 23:57:45,85863 - INFO - Epoch 258 training completed. Avg Loss: 1.8059, LR: 0.007050
+2025-03-25 23:57:49,37696 - INFO - Validation completed - Loss: 1.6981, Top1: 81.46%, Top5: 95.86%
+2025-03-25 23:57:49,37796 - INFO - Epoch 258 Summary: 
+Train Loss: 1.8059 | Val Loss: 1.6981
+Top1 Acc: 81.46% | Top5 Acc: 95.86%
+----------------------------------------
+
+2025-03-25 23:57:50,37796 - INFO - Epoch 259/310 started
+2025-03-26 00:00:28,95696 - INFO - Epoch 259 training completed. Avg Loss: 1.8060, LR: 0.006793
+2025-03-26 00:00:32,47529 - INFO - Validation completed - Loss: 1.6940, Top1: 81.96%, Top5: 95.76%
+2025-03-26 00:00:32,47629 - INFO - Epoch 259 Summary: 
+Train Loss: 1.8060 | Val Loss: 1.6940
+Top1 Acc: 81.96% | Top5 Acc: 95.76%
+----------------------------------------
+
+2025-03-26 00:00:33,47629 - INFO - Epoch 260/310 started
+2025-03-26 00:03:12,05529 - INFO - Epoch 260 training completed. Avg Loss: 1.7964, LR: 0.006540
+2025-03-26 00:03:15,57363 - INFO - Validation completed - Loss: 1.6791, Top1: 82.38%, Top5: 95.78%
+2025-03-26 00:03:15,57463 - INFO - Epoch 260 Summary: 
+Train Loss: 1.7964 | Val Loss: 1.6791
+Top1 Acc: 82.38% | Top5 Acc: 95.78%
+----------------------------------------
+
+2025-03-26 00:03:16,57463 - INFO - Epoch 261/310 started
+2025-03-26 00:05:55,15363 - INFO - Epoch 261 training completed. Avg Loss: 1.7946, LR: 0.006292
+2025-03-26 00:05:58,67196 - INFO - Validation completed - Loss: 1.6762, Top1: 82.48%, Top5: 95.94%
+2025-03-26 00:05:58,67296 - INFO - Epoch 261 Summary: 
+Train Loss: 1.7946 | Val Loss: 1.6762
+Top1 Acc: 82.48% | Top5 Acc: 95.94%
+----------------------------------------
+
+2025-03-26 00:05:59,67296 - INFO - Epoch 262/310 started
+2025-03-26 00:08:38,25196 - INFO - Epoch 262 training completed. Avg Loss: 1.7850, LR: 0.006048
+2025-03-26 00:08:41,77029 - INFO - Validation completed - Loss: 1.6841, Top1: 82.40%, Top5: 95.78%
+2025-03-26 00:08:41,77129 - INFO - Epoch 262 Summary: 
+Train Loss: 1.7850 | Val Loss: 1.6841
+Top1 Acc: 82.40% | Top5 Acc: 95.78%
+----------------------------------------
+
+2025-03-26 00:08:42,77129 - INFO - Epoch 263/310 started
+2025-03-26 00:11:21,35029 - INFO - Epoch 263 training completed. Avg Loss: 1.7872, LR: 0.005809
+2025-03-26 00:11:24,86862 - INFO - Validation completed - Loss: 1.6618, Top1: 82.72%, Top5: 96.24%
+2025-03-26 00:11:24,86962 - INFO - Epoch 263 Summary: 
+Train Loss: 1.7872 | Val Loss: 1.6618
+Top1 Acc: 82.72% | Top5 Acc: 96.24%
+----------------------------------------
+
+2025-03-26 00:11:25,86962 - INFO - Epoch 264/310 started
+2025-03-26 00:14:04,44862 - INFO - Epoch 264 training completed. Avg Loss: 1.7804, LR: 0.005575
+2025-03-26 00:14:07,96696 - INFO - Validation completed - Loss: 1.6789, Top1: 82.78%, Top5: 95.80%
+2025-03-26 00:14:07,96796 - INFO - Epoch 264 Summary: 
+Train Loss: 1.7804 | Val Loss: 1.6789
+Top1 Acc: 82.78% | Top5 Acc: 95.80%
+----------------------------------------
+
+2025-03-26 00:14:08,96796 - INFO - Epoch 265/310 started
+2025-03-26 00:16:47,54696 - INFO - Epoch 265 training completed. Avg Loss: 1.7736, LR: 0.005345
+2025-03-26 00:16:51,06529 - INFO - Validation completed - Loss: 1.6605, Top1: 82.98%, Top5: 95.82%
+2025-03-26 00:16:51,22129 - INFO - New best model saved with Top1 Acc: 82.98%
+2025-03-26 00:16:51,22129 - INFO - Epoch 265 Summary: 
+Train Loss: 1.7736 | Val Loss: 1.6605
+Top1 Acc: 82.98% | Top5 Acc: 95.82%
+----------------------------------------
+
+2025-03-26 00:16:52,22129 - INFO - Epoch 266/310 started
+2025-03-26 00:19:30,80029 - INFO - Epoch 266 training completed. Avg Loss: 1.7694, LR: 0.005119
+2025-03-26 00:19:34,31862 - INFO - Validation completed - Loss: 1.6540, Top1: 83.26%, Top5: 96.10%
+2025-03-26 00:19:34,48262 - INFO - New best model saved with Top1 Acc: 83.26%
+2025-03-26 00:19:34,48262 - INFO - Epoch 266 Summary: 
+Train Loss: 1.7694 | Val Loss: 1.6540
+Top1 Acc: 83.26% | Top5 Acc: 96.10%
+----------------------------------------
+
+2025-03-26 00:19:35,48262 - INFO - Epoch 267/310 started
+2025-03-26 00:22:14,06162 - INFO - Epoch 267 training completed. Avg Loss: 1.7644, LR: 0.004898
+2025-03-26 00:22:17,57996 - INFO - Validation completed - Loss: 1.6729, Top1: 82.60%, Top5: 96.32%
+2025-03-26 00:22:17,57996 - INFO - Epoch 267 Summary: 
+Train Loss: 1.7644 | Val Loss: 1.6729
+Top1 Acc: 82.60% | Top5 Acc: 96.32%
+----------------------------------------
+
+2025-03-26 00:22:18,57996 - INFO - Epoch 268/310 started
+2025-03-26 00:24:57,15896 - INFO - Epoch 268 training completed. Avg Loss: 1.7593, LR: 0.004682
+2025-03-26 00:25:00,67729 - INFO - Validation completed - Loss: 1.6545, Top1: 83.04%, Top5: 95.96%
+2025-03-26 00:25:00,67729 - INFO - Epoch 268 Summary: 
+Train Loss: 1.7593 | Val Loss: 1.6545
+Top1 Acc: 83.04% | Top5 Acc: 95.96%
+----------------------------------------
+
+2025-03-26 00:25:01,67729 - INFO - Epoch 269/310 started
+2025-03-26 00:27:40,25629 - INFO - Epoch 269 training completed. Avg Loss: 1.7588, LR: 0.004471
+2025-03-26 00:27:43,77462 - INFO - Validation completed - Loss: 1.6580, Top1: 83.06%, Top5: 96.28%
+2025-03-26 00:27:43,77562 - INFO - Epoch 269 Summary: 
+Train Loss: 1.7588 | Val Loss: 1.6580
+Top1 Acc: 83.06% | Top5 Acc: 96.28%
+----------------------------------------
+
+2025-03-26 00:27:44,77562 - INFO - Epoch 270/310 started
+2025-03-26 00:30:23,35462 - INFO - Epoch 270 training completed. Avg Loss: 1.7504, LR: 0.004264
+2025-03-26 00:30:26,87296 - INFO - Validation completed - Loss: 1.6540, Top1: 83.24%, Top5: 96.06%
+2025-03-26 00:30:26,87396 - INFO - Epoch 270 Summary: 
+Train Loss: 1.7504 | Val Loss: 1.6540
+Top1 Acc: 83.24% | Top5 Acc: 96.06%
+----------------------------------------
+
+2025-03-26 00:30:27,87396 - INFO - Epoch 271/310 started
+2025-03-26 00:33:06,45296 - INFO - Epoch 271 training completed. Avg Loss: 1.7491, LR: 0.004062
+2025-03-26 00:33:09,97129 - INFO - Validation completed - Loss: 1.6402, Top1: 83.98%, Top5: 96.16%
+2025-03-26 00:33:10,14429 - INFO - New best model saved with Top1 Acc: 83.98%
+2025-03-26 00:33:10,14429 - INFO - Epoch 271 Summary: 
+Train Loss: 1.7491 | Val Loss: 1.6402
+Top1 Acc: 83.98% | Top5 Acc: 96.16%
+----------------------------------------
+
+2025-03-26 00:33:11,14429 - INFO - Epoch 272/310 started
+2025-03-26 00:35:49,72329 - INFO - Epoch 272 training completed. Avg Loss: 1.7447, LR: 0.003864
+2025-03-26 00:35:53,24162 - INFO - Validation completed - Loss: 1.6373, Top1: 83.54%, Top5: 96.38%
+2025-03-26 00:35:53,24162 - INFO - Epoch 272 Summary: 
+Train Loss: 1.7447 | Val Loss: 1.6373
+Top1 Acc: 83.54% | Top5 Acc: 96.38%
+----------------------------------------
+
+2025-03-26 00:35:54,24162 - INFO - Epoch 273/310 started
+2025-03-26 00:38:32,82062 - INFO - Epoch 273 training completed. Avg Loss: 1.7379, LR: 0.003672
+2025-03-26 00:38:36,33895 - INFO - Validation completed - Loss: 1.6408, Top1: 83.58%, Top5: 96.22%
+2025-03-26 00:38:36,33895 - INFO - Epoch 273 Summary: 
+Train Loss: 1.7379 | Val Loss: 1.6408
+Top1 Acc: 83.58% | Top5 Acc: 96.22%
+----------------------------------------
+
+2025-03-26 00:38:37,33895 - INFO - Epoch 274/310 started
+2025-03-26 00:41:15,91795 - INFO - Epoch 274 training completed. Avg Loss: 1.7331, LR: 0.003484
+2025-03-26 00:41:19,43629 - INFO - Validation completed - Loss: 1.6575, Top1: 82.86%, Top5: 96.12%
+2025-03-26 00:41:19,43629 - INFO - Epoch 274 Summary: 
+Train Loss: 1.7331 | Val Loss: 1.6575
+Top1 Acc: 82.86% | Top5 Acc: 96.12%
+----------------------------------------
+
+2025-03-26 00:41:20,43629 - INFO - Epoch 275/310 started
+2025-03-26 00:43:59,01529 - INFO - Epoch 275 training completed. Avg Loss: 1.7312, LR: 0.003300
+2025-03-26 00:44:02,53362 - INFO - Validation completed - Loss: 1.6463, Top1: 83.40%, Top5: 96.04%
+2025-03-26 00:44:02,53462 - INFO - Epoch 275 Summary: 
+Train Loss: 1.7312 | Val Loss: 1.6463
+Top1 Acc: 83.40% | Top5 Acc: 96.04%
+----------------------------------------
+
+2025-03-26 00:44:03,53462 - INFO - Epoch 276/310 started
+2025-03-26 00:46:42,11362 - INFO - Epoch 276 training completed. Avg Loss: 1.7272, LR: 0.003122
+2025-03-26 00:46:45,63195 - INFO - Validation completed - Loss: 1.6497, Top1: 83.28%, Top5: 96.32%
+2025-03-26 00:46:45,63295 - INFO - Epoch 276 Summary: 
+Train Loss: 1.7272 | Val Loss: 1.6497
+Top1 Acc: 83.28% | Top5 Acc: 96.32%
+----------------------------------------
+
+2025-03-26 00:46:46,63295 - INFO - Epoch 277/310 started
+2025-03-26 00:49:25,21195 - INFO - Epoch 277 training completed. Avg Loss: 1.7215, LR: 0.002949
+2025-03-26 00:49:28,73029 - INFO - Validation completed - Loss: 1.6443, Top1: 83.64%, Top5: 96.28%
+2025-03-26 00:49:28,73129 - INFO - Epoch 277 Summary: 
+Train Loss: 1.7215 | Val Loss: 1.6443
+Top1 Acc: 83.64% | Top5 Acc: 96.28%
+----------------------------------------
+
+2025-03-26 00:49:29,73129 - INFO - Epoch 278/310 started
+2025-03-26 00:52:08,31029 - INFO - Epoch 278 training completed. Avg Loss: 1.7192, LR: 0.002780
+2025-03-26 00:52:11,82862 - INFO - Validation completed - Loss: 1.6340, Top1: 83.56%, Top5: 96.46%
+2025-03-26 00:52:11,82962 - INFO - Epoch 278 Summary: 
+Train Loss: 1.7192 | Val Loss: 1.6340
+Top1 Acc: 83.56% | Top5 Acc: 96.46%
+----------------------------------------
+
+2025-03-26 00:52:12,82962 - INFO - Epoch 279/310 started
+2025-03-26 00:54:51,40862 - INFO - Epoch 279 training completed. Avg Loss: 1.7157, LR: 0.002616
+2025-03-26 00:54:54,92695 - INFO - Validation completed - Loss: 1.6282, Top1: 84.06%, Top5: 96.46%
+2025-03-26 00:54:55,08895 - INFO - New best model saved with Top1 Acc: 84.06%
+2025-03-26 00:54:55,08895 - INFO - Epoch 279 Summary: 
+Train Loss: 1.7157 | Val Loss: 1.6282
+Top1 Acc: 84.06% | Top5 Acc: 96.46%
+----------------------------------------
+
+2025-03-26 00:54:56,08895 - INFO - Epoch 280/310 started
+2025-03-26 00:57:34,66795 - INFO - Epoch 280 training completed. Avg Loss: 1.7076, LR: 0.002457
+2025-03-26 00:57:38,18629 - INFO - Validation completed - Loss: 1.6351, Top1: 83.70%, Top5: 96.36%
+2025-03-26 00:57:38,18629 - INFO - Epoch 280 Summary: 
+Train Loss: 1.7076 | Val Loss: 1.6351
+Top1 Acc: 83.70% | Top5 Acc: 96.36%
+----------------------------------------
+
+2025-03-26 00:57:39,18629 - INFO - Epoch 281/310 started
+2025-03-26 01:00:17,76529 - INFO - Epoch 281 training completed. Avg Loss: 1.7063, LR: 0.002303
+2025-03-26 01:00:21,28362 - INFO - Validation completed - Loss: 1.6375, Top1: 83.62%, Top5: 96.34%
+2025-03-26 01:00:21,28362 - INFO - Epoch 281 Summary: 
+Train Loss: 1.7063 | Val Loss: 1.6375
+Top1 Acc: 83.62% | Top5 Acc: 96.34%
+----------------------------------------
+
+2025-03-26 01:00:22,28362 - INFO - Epoch 282/310 started
+2025-03-26 01:03:00,86262 - INFO - Epoch 282 training completed. Avg Loss: 1.7014, LR: 0.002154
+2025-03-26 01:03:04,38095 - INFO - Validation completed - Loss: 1.6256, Top1: 84.14%, Top5: 96.44%
+2025-03-26 01:03:04,54495 - INFO - New best model saved with Top1 Acc: 84.14%
+2025-03-26 01:03:04,54595 - INFO - Epoch 282 Summary: 
+Train Loss: 1.7014 | Val Loss: 1.6256
+Top1 Acc: 84.14% | Top5 Acc: 96.44%
+----------------------------------------
+
+2025-03-26 01:03:05,54595 - INFO - Epoch 283/310 started
+2025-03-26 01:05:44,12495 - INFO - Epoch 283 training completed. Avg Loss: 1.6994, LR: 0.002009
+2025-03-26 01:05:47,64328 - INFO - Validation completed - Loss: 1.6264, Top1: 84.20%, Top5: 96.42%
+2025-03-26 01:05:47,80228 - INFO - New best model saved with Top1 Acc: 84.20%
+2025-03-26 01:05:47,80228 - INFO - Epoch 283 Summary: 
+Train Loss: 1.6994 | Val Loss: 1.6264
+Top1 Acc: 84.20% | Top5 Acc: 96.42%
+----------------------------------------
+
+2025-03-26 01:05:48,80228 - INFO - Epoch 284/310 started
+2025-03-26 01:08:27,38128 - INFO - Epoch 284 training completed. Avg Loss: 1.6977, LR: 0.001870
+2025-03-26 01:08:30,89962 - INFO - Validation completed - Loss: 1.6220, Top1: 84.38%, Top5: 96.56%
+2025-03-26 01:08:31,06162 - INFO - New best model saved with Top1 Acc: 84.38%
+2025-03-26 01:08:31,06262 - INFO - Epoch 284 Summary: 
+Train Loss: 1.6977 | Val Loss: 1.6220
+Top1 Acc: 84.38% | Top5 Acc: 96.56%
+----------------------------------------
+
+2025-03-26 01:08:32,06262 - INFO - Epoch 285/310 started
+2025-03-26 01:11:10,64162 - INFO - Epoch 285 training completed. Avg Loss: 1.6907, LR: 0.001735
+2025-03-26 01:11:14,15995 - INFO - Validation completed - Loss: 1.6188, Top1: 83.96%, Top5: 96.76%
+2025-03-26 01:11:14,16095 - INFO - Epoch 285 Summary: 
+Train Loss: 1.6907 | Val Loss: 1.6188
+Top1 Acc: 83.96% | Top5 Acc: 96.76%
+----------------------------------------
+
+2025-03-26 01:11:15,16095 - INFO - Epoch 286/310 started
+2025-03-26 01:13:53,73995 - INFO - Epoch 286 training completed. Avg Loss: 1.6924, LR: 0.001606
+2025-03-26 01:13:57,25828 - INFO - Validation completed - Loss: 1.6191, Top1: 83.90%, Top5: 96.48%
+2025-03-26 01:13:57,25828 - INFO - Epoch 286 Summary: 
+Train Loss: 1.6924 | Val Loss: 1.6191
+Top1 Acc: 83.90% | Top5 Acc: 96.48%
+----------------------------------------
+
+2025-03-26 01:13:58,25828 - INFO - Epoch 287/310 started
+2025-03-26 01:16:36,83728 - INFO - Epoch 287 training completed. Avg Loss: 1.6887, LR: 0.001481
+2025-03-26 01:16:40,35562 - INFO - Validation completed - Loss: 1.6253, Top1: 83.96%, Top5: 96.54%
+2025-03-26 01:16:40,35662 - INFO - Epoch 287 Summary: 
+Train Loss: 1.6887 | Val Loss: 1.6253
+Top1 Acc: 83.96% | Top5 Acc: 96.54%
+----------------------------------------
+
+2025-03-26 01:16:41,35662 - INFO - Epoch 288/310 started
+2025-03-26 01:19:19,93562 - INFO - Epoch 288 training completed. Avg Loss: 1.6873, LR: 0.001362
+2025-03-26 01:19:23,45395 - INFO - Validation completed - Loss: 1.6203, Top1: 83.46%, Top5: 96.40%
+2025-03-26 01:19:23,45495 - INFO - Epoch 288 Summary: 
+Train Loss: 1.6873 | Val Loss: 1.6203
+Top1 Acc: 83.46% | Top5 Acc: 96.40%
+----------------------------------------
+
+2025-03-26 01:19:24,45495 - INFO - Epoch 289/310 started
+2025-03-26 01:22:03,03395 - INFO - Epoch 289 training completed. Avg Loss: 1.6797, LR: 0.001247
+2025-03-26 01:22:06,55228 - INFO - Validation completed - Loss: 1.6145, Top1: 84.04%, Top5: 96.66%
+2025-03-26 01:22:06,55328 - INFO - Epoch 289 Summary: 
+Train Loss: 1.6797 | Val Loss: 1.6145
+Top1 Acc: 84.04% | Top5 Acc: 96.66%
+----------------------------------------
+
+2025-03-26 01:22:07,55328 - INFO - Epoch 290/310 started
+2025-03-26 01:24:46,13228 - INFO - Epoch 290 training completed. Avg Loss: 1.6745, LR: 0.001138
+2025-03-26 01:24:49,65062 - INFO - Validation completed - Loss: 1.6185, Top1: 83.86%, Top5: 96.46%
+2025-03-26 01:24:49,65162 - INFO - Epoch 290 Summary: 
+Train Loss: 1.6745 | Val Loss: 1.6185
+Top1 Acc: 83.86% | Top5 Acc: 96.46%
+----------------------------------------
+
+2025-03-26 01:24:50,65162 - INFO - Epoch 291/310 started
+2025-03-26 01:27:29,23062 - INFO - Epoch 291 training completed. Avg Loss: 1.6742, LR: 0.001033
+2025-03-26 01:27:32,74895 - INFO - Validation completed - Loss: 1.6146, Top1: 84.30%, Top5: 96.52%
+2025-03-26 01:27:32,74995 - INFO - Epoch 291 Summary: 
+Train Loss: 1.6742 | Val Loss: 1.6146
+Top1 Acc: 84.30% | Top5 Acc: 96.52%
+----------------------------------------
+
+2025-03-26 01:27:33,74995 - INFO - Epoch 292/310 started
+2025-03-26 01:30:12,32895 - INFO - Epoch 292 training completed. Avg Loss: 1.6742, LR: 0.000934
+2025-03-26 01:30:15,84728 - INFO - Validation completed - Loss: 1.6116, Top1: 84.36%, Top5: 96.62%
+2025-03-26 01:30:15,84728 - INFO - Epoch 292 Summary: 
+Train Loss: 1.6742 | Val Loss: 1.6116
+Top1 Acc: 84.36% | Top5 Acc: 96.62%
+----------------------------------------
+
+2025-03-26 01:30:16,84728 - INFO - Epoch 293/310 started
+2025-03-26 01:32:55,42628 - INFO - Epoch 293 training completed. Avg Loss: 1.6700, LR: 0.000839
+2025-03-26 01:32:58,94461 - INFO - Validation completed - Loss: 1.6078, Top1: 84.30%, Top5: 96.62%
+2025-03-26 01:32:58,94561 - INFO - Epoch 293 Summary: 
+Train Loss: 1.6700 | Val Loss: 1.6078
+Top1 Acc: 84.30% | Top5 Acc: 96.62%
+----------------------------------------
+
+2025-03-26 01:32:59,94561 - INFO - Epoch 294/310 started
+2025-03-26 01:35:38,52461 - INFO - Epoch 294 training completed. Avg Loss: 1.6665, LR: 0.000750
+2025-03-26 01:35:42,04295 - INFO - Validation completed - Loss: 1.6088, Top1: 84.26%, Top5: 96.62%
+2025-03-26 01:35:42,04295 - INFO - Epoch 294 Summary: 
+Train Loss: 1.6665 | Val Loss: 1.6088
+Top1 Acc: 84.26% | Top5 Acc: 96.62%
+----------------------------------------
+
+2025-03-26 01:35:43,04295 - INFO - Epoch 295/310 started
+2025-03-26 01:38:21,62195 - INFO - Epoch 295 training completed. Avg Loss: 1.6659, LR: 0.000666
+2025-03-26 01:38:25,14028 - INFO - Validation completed - Loss: 1.6079, Top1: 84.20%, Top5: 96.48%
+2025-03-26 01:38:25,14028 - INFO - Epoch 295 Summary: 
+Train Loss: 1.6659 | Val Loss: 1.6079
+Top1 Acc: 84.20% | Top5 Acc: 96.48%
+----------------------------------------
+
+2025-03-26 01:38:26,14028 - INFO - Epoch 296/310 started
+2025-03-26 01:41:04,71928 - INFO - Epoch 296 training completed. Avg Loss: 1.6625, LR: 0.000587
+2025-03-26 01:41:08,23761 - INFO - Validation completed - Loss: 1.6059, Top1: 84.18%, Top5: 96.52%
+2025-03-26 01:41:08,23761 - INFO - Epoch 296 Summary: 
+Train Loss: 1.6625 | Val Loss: 1.6059
+Top1 Acc: 84.18% | Top5 Acc: 96.52%
+----------------------------------------
+
+2025-03-26 01:41:09,23761 - INFO - Epoch 297/310 started
+2025-03-26 01:43:47,81661 - INFO - Epoch 297 training completed. Avg Loss: 1.6611, LR: 0.000512
+2025-03-26 01:43:51,33495 - INFO - Validation completed - Loss: 1.6099, Top1: 84.40%, Top5: 96.52%
+2025-03-26 01:43:51,49695 - INFO - New best model saved with Top1 Acc: 84.40%
+2025-03-26 01:43:51,49695 - INFO - Epoch 297 Summary: 
+Train Loss: 1.6611 | Val Loss: 1.6099
+Top1 Acc: 84.40% | Top5 Acc: 96.52%
+----------------------------------------
+
+2025-03-26 01:43:52,49695 - INFO - Epoch 298/310 started
+2025-03-26 01:46:31,07595 - INFO - Epoch 298 training completed. Avg Loss: 1.6606, LR: 0.000443
+2025-03-26 01:46:34,59428 - INFO - Validation completed - Loss: 1.6094, Top1: 84.22%, Top5: 96.56%
+2025-03-26 01:46:34,59428 - INFO - Epoch 298 Summary: 
+Train Loss: 1.6606 | Val Loss: 1.6094
+Top1 Acc: 84.22% | Top5 Acc: 96.56%
+----------------------------------------
+
+2025-03-26 01:46:35,59428 - INFO - Epoch 299/310 started
+2025-03-26 01:49:14,17328 - INFO - Epoch 299 training completed. Avg Loss: 1.6578, LR: 0.000379
+2025-03-26 01:49:17,69161 - INFO - Validation completed - Loss: 1.6067, Top1: 84.20%, Top5: 96.50%
+2025-03-26 01:49:17,69161 - INFO - Epoch 299 Summary: 
+Train Loss: 1.6578 | Val Loss: 1.6067
+Top1 Acc: 84.20% | Top5 Acc: 96.50%
+----------------------------------------
+
+2025-03-26 01:49:18,69161 - INFO - Epoch 300/310 started
+2025-03-26 01:51:57,27061 - INFO - Epoch 300 training completed. Avg Loss: 1.6583, LR: 0.000320
+2025-03-26 01:52:00,78895 - INFO - Validation completed - Loss: 1.6083, Top1: 84.22%, Top5: 96.50%
+2025-03-26 01:52:00,78895 - INFO - Epoch 300 Summary: 
+Train Loss: 1.6583 | Val Loss: 1.6083
+Top1 Acc: 84.22% | Top5 Acc: 96.50%
+----------------------------------------
+
+2025-03-26 01:52:01,78895 - INFO - Epoch 301/310 started
+2025-03-26 01:54:40,36795 - INFO - Epoch 301 training completed. Avg Loss: 1.6515, LR: 0.000267
+2025-03-26 01:54:43,88628 - INFO - Validation completed - Loss: 1.6064, Top1: 84.24%, Top5: 96.58%
+2025-03-26 01:54:43,88628 - INFO - Epoch 301 Summary: 
+Train Loss: 1.6515 | Val Loss: 1.6064
+Top1 Acc: 84.24% | Top5 Acc: 96.58%
+----------------------------------------
+
+2025-03-26 01:54:44,88628 - INFO - Epoch 302/310 started
+2025-03-26 01:57:23,46528 - INFO - Epoch 302 training completed. Avg Loss: 1.6529, LR: 0.000218
+2025-03-26 01:57:26,98361 - INFO - Validation completed - Loss: 1.6063, Top1: 84.08%, Top5: 96.60%
+2025-03-26 01:57:26,98361 - INFO - Epoch 302 Summary: 
+Train Loss: 1.6529 | Val Loss: 1.6063
+Top1 Acc: 84.08% | Top5 Acc: 96.60%
+----------------------------------------
+
+2025-03-26 01:57:27,98361 - INFO - Epoch 303/310 started
+2025-03-26 02:00:06,56261 - INFO - Epoch 303 training completed. Avg Loss: 1.6526, LR: 0.000174
+2025-03-26 02:00:10,08094 - INFO - Validation completed - Loss: 1.6063, Top1: 84.18%, Top5: 96.70%
+2025-03-26 02:00:10,08194 - INFO - Epoch 303 Summary: 
+Train Loss: 1.6526 | Val Loss: 1.6063
+Top1 Acc: 84.18% | Top5 Acc: 96.70%
+----------------------------------------
+
+2025-03-26 02:00:11,08194 - INFO - Epoch 304/310 started
+2025-03-26 02:02:49,66094 - INFO - Epoch 304 training completed. Avg Loss: 1.6487, LR: 0.000136
+2025-03-26 02:02:53,17928 - INFO - Validation completed - Loss: 1.6070, Top1: 84.18%, Top5: 96.54%
+2025-03-26 02:02:53,18028 - INFO - Epoch 304 Summary: 
+Train Loss: 1.6487 | Val Loss: 1.6070
+Top1 Acc: 84.18% | Top5 Acc: 96.54%
+----------------------------------------
+
+2025-03-26 02:02:54,18028 - INFO - Epoch 305/310 started
+2025-03-26 02:05:32,75928 - INFO - Epoch 305 training completed. Avg Loss: 1.6550, LR: 0.000102
+2025-03-26 02:05:36,27761 - INFO - Validation completed - Loss: 1.6053, Top1: 84.34%, Top5: 96.66%
+2025-03-26 02:05:36,27861 - INFO - Epoch 305 Summary: 
+Train Loss: 1.6550 | Val Loss: 1.6053
+Top1 Acc: 84.34% | Top5 Acc: 96.66%
+----------------------------------------
+
+2025-03-26 02:05:37,27861 - INFO - Epoch 306/310 started
+2025-03-26 02:08:15,85761 - INFO - Epoch 306 training completed. Avg Loss: 1.6480, LR: 0.000074
+2025-03-26 02:08:19,37594 - INFO - Validation completed - Loss: 1.6041, Top1: 84.36%, Top5: 96.64%
+2025-03-26 02:08:19,37694 - INFO - Epoch 306 Summary: 
+Train Loss: 1.6480 | Val Loss: 1.6041
+Top1 Acc: 84.36% | Top5 Acc: 96.64%
+----------------------------------------
+
+2025-03-26 02:08:20,37694 - INFO - Epoch 307/310 started
+2025-03-26 02:10:58,95594 - INFO - Epoch 307 training completed. Avg Loss: 1.6494, LR: 0.000051
+2025-03-26 02:11:02,47428 - INFO - Validation completed - Loss: 1.6074, Top1: 84.18%, Top5: 96.74%
+2025-03-26 02:11:02,47528 - INFO - Epoch 307 Summary: 
+Train Loss: 1.6494 | Val Loss: 1.6074
+Top1 Acc: 84.18% | Top5 Acc: 96.74%
+----------------------------------------
+
+2025-03-26 02:11:03,47528 - INFO - Epoch 308/310 started
+2025-03-26 02:13:42,05428 - INFO - Epoch 308 training completed. Avg Loss: 1.6506, LR: 0.000033
+2025-03-26 02:13:45,57261 - INFO - Validation completed - Loss: 1.6060, Top1: 84.12%, Top5: 96.56%
+2025-03-26 02:13:45,57261 - INFO - Epoch 308 Summary: 
+Train Loss: 1.6506 | Val Loss: 1.6060
+Top1 Acc: 84.12% | Top5 Acc: 96.56%
+----------------------------------------
+
+2025-03-26 02:13:46,57261 - INFO - Epoch 309/310 started
+2025-03-26 02:16:25,15161 - INFO - Epoch 309 training completed. Avg Loss: 1.6538, LR: 0.000020
+2025-03-26 02:16:28,66994 - INFO - Validation completed - Loss: 1.6049, Top1: 84.28%, Top5: 96.74%
+2025-03-26 02:16:28,67094 - INFO - Epoch 309 Summary: 
+Train Loss: 1.6538 | Val Loss: 1.6049
+Top1 Acc: 84.28% | Top5 Acc: 96.74%
+----------------------------------------
+
+2025-03-26 02:16:29,67094 - INFO - Epoch 310/310 started
+2025-03-26 02:19:08,24994 - INFO - Epoch 310 training completed. Avg Loss: 1.6482, LR: 0.000013
+2025-03-26 02:19:11,76828 - INFO - Validation completed - Loss: 1.6046, Top1: 84.30%, Top5: 96.64%
+2025-03-26 02:19:11,76928 - INFO - Epoch 310 Summary: 
+Train Loss: 1.6482 | Val Loss: 1.6046
+Top1 Acc: 84.30% | Top5 Acc: 96.64%
+----------------------------------------
+2025-03-26 02:19:11,76928 - INFO - Training completed. Best Top1 Accuracy: 84.40%
